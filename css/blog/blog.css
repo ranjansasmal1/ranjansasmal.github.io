@@ -1,0 +1,151 @@
+/*** 
+
+====================================================================
+	blogs-section
+====================================================================
+
+ ***/
+
+.bkr003 .latest-news-08 {
+    position: relative;
+    padding: 100px 0px 60px 0px;
+    z-index: 1;
+}
+.bkr003 .latest-news-08:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-image: url(../../images/background/home-7-sec-end.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px;
+    opacity: 0;
+}
+.fixed-right-nav.scroll-nav-holder {
+    height: 0px;
+}
+.bkr003 .latest-news-08 .content-container {
+    position: relative;
+}
+.bkr003 .latest-news-08 .small-container {
+    position: relative;
+    max-width: 1224px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+.bkr003 .latest-news-08 .sec-title {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 100px;
+	margin-top: -19px;
+	z-index: 1;
+}
+.bkr003 .latest-news-08 .sec-title:before {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    width: 5px;
+    height: 100px;
+    z-index: 188;
+    background: #00000021;
+}
+.bkr003 .latest-news-08 .sec-title .title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-transform: uppercase;
+}
+.bkr003 .latest-news-08 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+}
+.bkr003 .latest-news-08 .sec-title .bigtitle {
+    float: right;
+    position: relative;
+    margin-top: -100px;
+}
+.bkr003 .latest-news-08 .sec-title .bigtitle h1 {
+    font-size: 140px;
+	line-height: 140px;
+    color: #DDDDDD;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: -1;
+}
+.bkr003 .latest-news-08 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.bkr003 .latest-news-08 .image {}
+.bkr003 .latest-news-08 .overlay-anim-box2 {
+    display: block;
+}
+.bkr003 .latest-news-08 .image img {}
+
+.bkr003 .latest-news-08 .content h3 {
+    font-size: 24px;
+    color: #222222;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+.bkr003 .latest-news-08 .content h3 a{
+    font-size: 24px;
+    color: #222222;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+.bkr003 .latest-news-08 .content .meta-box {
+    margin-bottom: 16px;
+}
+.bkr003 .latest-news-08 .content .meta-box .meta-info {}
+.bkr003 .latest-news-08 .content .meta-box .meta-info li {
+    display: inline-block;
+    font-size: 11px;
+    color: #777777;
+    margin-right: 15px;
+    font-weight: 600;
+}
+.bkr003 .latest-news-08 .content .meta-box .meta-info li i {
+    color: #ef0d33;
+    margin-right: 10px;
+}
+.bkr003 .latest-news-08 .content .text p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+    padding-right: 65px;
+    margin-bottom: 26px;
+}
+.bkr003 .latest-news-08 .content .btn-box {}
+.bkr003 .latest-news-08 .content .btn-box a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    background: #ef0d33;
+    padding: 12px 40px;
+    display: inline-block;
+}
+.bkr003 .latest-news-08 .content .btn-box a {
+    background-image: -webkit-linear-gradient(315deg, #222 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #222 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #222 50%, transparent 50%);
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.bkr003 .latest-news-08 .content .btn-box a:hover {
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+    color: #fff;
+}
+.bkr003 .latest-news-08 .row {
+    margin-bottom: 50px;
+}

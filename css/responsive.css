@@ -1,0 +1,1548 @@
+/* Saasweb HTML Template */
+
+@media only screen and (max-width: 7000px){
+	.page-wrapper{
+		overflow: hidden;
+	}
+}
+@media only screen and (max-width: 1900px){
+	.bkr003 .gilk-01 .content {
+		background: #000000;
+		padding: 130px 0px 150px 0px;
+	}
+	.bkr003 .video-01 .big-title {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.bkr003 .video-01 .big-title h1 {
+		transform: rotate(0deg);
+	}
+	.bkr003 .sweem .header-right {
+		margin-left: 25%;
+	}
+	.bkr003 .portfolio-05 .project-block {
+		margin-left: -1px;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 1700px){
+	.bkr003 .slider-01 .content .social-list ul {
+		right: 0;
+		bottom: 0;
+	}
+	.bkr003 .resume-03 .left-content .title h2 {
+		position: relative;
+		left: 0;
+		bottom: 0;
+		transform: rotate(0deg);
+	}
+	.bkr003 .resume-03 .right-content .title h2 {
+		position: relative;
+		right: 0;
+		bottom: 0;
+		transform: rotate(0deg);
+	}
+	.bkr003 .gilk-01 .content {
+		background: #000000;
+		text-align: center;
+		padding: 70px 0px 70px 0px;
+	}
+	.bkr003 .featured-works-01 .featured-block.style-two .content-column .inner-column {
+		left: 0;
+	}
+	.bkr003 .featured-works-01 .content-column .inner-column {
+		left: 0;
+		margin-left: 50px;
+	}
+	.bkr003 .featured-works-01 .featured-block.style-four .content-column .inner-column {
+		left: 0;
+	}
+	.bkr003 .featured-works-01 .featured-block.style-three .content-column .inner-column {
+		padding-bottom: 260px;
+	}
+	.bkr003 .faq-01 .full-content {
+		left: 0;
+	}
+	.banner-section-01 .banner-slider-control.banner-slider-button-prev span {
+		top: 40px;
+		left: 0;
+	}
+	.banner-section-01 .banner-slider-control.banner-slider-button-next span {
+		right: unset;
+		top: 40px;
+		left: 0;
+	}
+	.about-07 .img-box:before {
+		display: none;
+	}
+	.bkr003 .aboutus-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .skills-01 .big-title h1, .bkr003 .testimonial-01 .big-title h1, .bkr003 .latest-news-01 .big-title h1, .bkr003 .contac-with-01 .big-title h1, .bkr003 .working-Process-01 .big-title h1 {
+		font-size: 110px;
+	}
+	.bkr003 .funfact-01:before, .bkr003 .power-skills-01:before, .bkr003 .our-blog-01:before {
+		background-size: cover;
+	}
+	.bkr003 .funfact-01 .sec-title:before, .bkr003 .power-skills-01 .sec-title:before {
+		display: none;
+	}
+    .banner-section .swiper-slide {
+        padding: 200px 200px 300px 0px;
+    }
+.services-tab-01 .tabs-content .img-box {
+    margin-left: 0 !important;
+}
+    .services-tab-01 .tabs-content .img-box img {
+        width: 100%;
+    }
+    .services-tab-01 .tabs-content .img-box:before {
+        opacity: 0;
+    }
+    .services-tab-01 .tabs-content .balance p {
+        margin-right: 0;
+    }
+.services-tab-01 .tabs-content .content {
+    margin-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+}
+
+@media only screen and (max-width: 1560px){
+	.bkr003 .slider-02 .image-box {
+		top: 1px;
+		right: -165px;
+	}
+	.bkr003 .slider-02 .image-box img {
+		float: right;
+		max-width: none;
+	}
+	.bkr003 .slider-02 .text_typing p {
+		font-size: 45px;
+	}
+}
+
+@media only screen and (max-width: 1499px){
+	.services-tab-01 .tab-buttons .tab-btn {
+        margin-bottom: 15px;
+    }
+	.services-tab-01 .tab-buttons {
+		margin-bottom: 50px !important;
+	}
+	.bkr003 .latest-news-07 .inner-box .image {
+		display: block;
+	}
+	.bkr003 .latest-news-07 .inner-box .image img {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1299px){
+	.bkr003 .about-04 .image {
+		display: inline-block;
+	}
+	.footer-bottom-area-06 .container {
+		padding: 0px 45px;
+	}
+	
+}
+@media only screen and (max-width: 1279px){
+    .banner-section .swiper-slide {
+        padding: 200px 0px 300px 0px;
+    }
+	.bkr003 .header-left {
+		margin-left: 0;
+	}
+	.bkr003 .sweem .header-right {
+		margin-left: 20%;
+	}  
+	
+}
+
+
+
+@media only screen and (max-width: 1300px){
+.bkr003 .about-06 .container, .bkr003 .service-icon-06 .container, .bkr003 .works-01 .container, .bkr003 .pricing-04 .container, .bkr003 .resume-03 .container, .bkr003 .latest-news-06 .container, .bkr003 .contact-05 .container {
+    padding: 0px 70px;
+}
+	.bkr003 .about-07 .sec-title .bigtitle h1, .bkr003 .resume-05 .sec-title .bigtitle h1, .bkr003 .skill-07 .sec-title .bigtitle h1, .bkr003 .services-tab-01 .sec-title .bigtitle h1, .bkr003 .portfolio-06 .sec-title .bigtitle h1, .bkr003 .testimonials-07 .sec-title .bigtitle h1, .bkr003 .latest-news-08 .sec-title .bigtitle h1, .bkr003 .contact-07 .sec-title .bigtitle h1 {
+		font-size: 100px;
+		line-height: 100px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1199px){
+	.bkr003 .slider-02 .content {
+    padding: 120px 0px 0px 0px;
+}
+	.bkr003 .testimonials-07 .owl-nav {
+		left: 0;
+		top: 0;
+		margin: 70px 0px;
+	}
+	.bkr003 .slider-02 .image-box {
+		top: 0;
+		right: 0;
+		position: relative;
+		margin-bottom: -18px;
+	}
+	.bkr003 .slider-02 {
+		padding-bottom: 0 !important;
+	}
+	.bkr003 .slider-02 .image-box img {
+		float: unset;
+		max-width: 100%;
+	}
+	
+	.bkr003 .about-07 .sec-title .bigtitle, .bkr003 .resume-05 .sec-title .bigtitle, .bkr003 .skill-07 .sec-title .bigtitle, .bkr003 .services-tab-01 .sec-title .bigtitle, .bkr003 .portfolio-06 .sec-title .bigtitle, .bkr003 .testimonials-07 .sec-title .bigtitle, .bkr003 .latest-news-08 .sec-title .bigtitle, .bkr003 .contact-07 .sec-title .bigtitle {
+		top: 0;
+		float: none;
+		margin-top: 0;
+	}
+.bkr003 .resume-05 .sec-title, .bkr003 .about-07 .sec-title, .bkr003 .skill-07 .sec-title, .bkr003 .services-tab-01 .sec-title, .bkr003 .portfolio-06 .sec-title, .bkr003 .testimonials-07 .sec-title, .bkr003 .latest-news-08 .sec-title, .bkr003 .contact-07 .sec-title {
+    margin-bottom: 50px;
+}
+	.bkr003 .portfolio-06 .sec-title .bigtitle h1, .bkr003 .testimonials-07 .sec-title .bigtitle h1, .bkr003 .latest-news-08 .sec-title .bigtitle h1, .bkr003 .contact-07 .sec-title .bigtitle h1 {
+		line-height: 1.6em;
+	}
+	.bkr003 .skill-07 .text-two p {
+		margin-top: 0;
+	}
+	.bkr003 .services-tab-01 .tabs-content .content {
+		margin-top: 0;
+	}
+	.bkr003 .services-tab-01 .tab-buttons {
+		top: 0;
+	}
+	
+	
+	
+	.bkr003 .resume-04 .experience .item {
+		margin-bottom: 65px;
+	}
+    .bkr003 .footer-09 .about-widget .social-list li {
+        margin-bottom: 10px;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    .bkr003 .footer-09 {
+        padding: 100px 0px 100px;
+        background: #F4F4F4;
+        background-image: none !important;
+    }
+    .footer-bottom-area-09 .copyright-text {
+        text-align: center;
+    }
+    .footer-bottom-area-09 .list {
+        text-align: center;
+        margin-top: 0;
+    }
+    .page_pagination_two {
+        margin-bottom: 90px;
+    }
+    .bkr003 .service-icon-06 .item {
+        margin: 0px 0px;
+         margin-bottom: 50px;
+    }
+	.bkr003 .resume-02 .content {
+		margin-left: 40px;
+		margin-top: 40px;
+	}
+    .hidden-bar {
+        padding: 0 0px;
+    }
+	.bkr003 .resume-02 .content.three {
+		border-bottom: none;
+	}
+	.bkr003 .resume-02 .inner-box .btn-box a {
+		display: inline-block;
+		margin-top: 40px;
+	}
+	.bkr003 .skills-04 {
+		text-align: center;
+	}
+	.bkr003 .service-icon-04 .coulmn:nth-child(2) {
+		top: 0;
+	}
+	.bkr003 .service-icon-04 .coulmn:nth-child(3) {
+		top: 0;
+	}
+	.bkr003 .service-icon-04 .coulmn:nth-child(5) {
+		top: 0;
+	}
+	.bkr003 .service-icon-04 .coulmn:nth-child(6) {
+		top: 0;
+	}
+	.bkr003 .portfolio-03 .project-block .image-box img {
+		width: 100%;
+		max-width: none;
+	}
+	.bkr003 .portfolio-03 .filters .filter-btns {
+		float: none;
+		margin-top: -20px;
+	}
+	.bkr003 .funfact-04 .column .item {
+		margin-bottom: 40px;
+	}
+	.bkr003 .funfact-04 {
+		padding: 100px 0px 60px 0px;
+	}
+	.bkr003 .latest-news-04 .inner-box {
+		margin-bottom: 25px;
+	}
+	.bkr003 .slider-01 .content .image {
+		margin-top: 40px;
+		left: 0;
+	}
+	.bkr003 .about-03 .image {
+		display: inline-block;
+		margin-bottom: 50px;
+	}
+	.bkr003 .about-03 .image:before {
+		right: -50px;
+	}
+	.bkr003 .skills-03 .skill-block {
+		padding: 100px 0px 45px 0px;
+	}
+	.bkr003 .portfolio-02 .filters .filter-btns {
+		margin: 0px 0px;
+	}
+	.portfolio-02 .project-block .image-box img {
+		max-width: unset;
+		width: 100%;
+	}
+	.portfolio-02 .project-block {
+		margin-left: 0;
+	}
+	.portfolio-02 .project-block {
+		margin-bottom: 30px;
+	}
+	.bkr003 .funfact-03 .funfact .column .item:before {
+		display: none;
+	}
+	.bkr003 .funfact-03 .funfact .column .item {
+		text-align: center;
+	}
+	.bkr003 .funfact-03 .funfact .column .item .count-outer {
+		padding-left: 0;
+	}
+	.bkr003 .funfact-03 .funfact .column .item .counter-title {
+		padding-left: 0;
+	}
+	.bkr003 .latest-news-03 .inner-box {
+		margin-bottom: 50px;
+	}
+	.bkr003 .slider-03 .text-typing p {
+		padding-right: 0;
+		line-height: 130px;
+    	font-size: 70px;
+	}
+	.bkr003 .slider-03 .text-typing {
+		display: inline-block;
+	}
+	.bkr003 .about-05 .sec-title .title h2 {
+		padding-left: 0;
+	}
+	.bkr003 .about-05 .image {
+		top: 0;
+	}
+	.bkr003 .about-05 .content {
+		padding-left: 0;
+		padding-top: 40px;
+	}
+	.bkr003 .about-05 .content:before {
+		opacity: 0;
+	}
+	.bkr003 .education-01 .content .item .text p {
+		padding-right: 0;
+	}
+	.bkr003 .skills-05 .bar-item {
+		padding-left: 0;
+	}
+	.bkr003 .testimonial-05 .subtitle {
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+	.bkr003 .testimonial-05 .inner-box {
+		margin-right: 0;
+	}
+	.bkr003 .testimonial-05 .content-box .author-info h4 {
+		font-size: 16px;
+	}
+	.bkr003 .funfact-05 .count-box .item {
+		margin-bottom: 70px;
+		padding-left: 0;
+	}
+	.bkr003 .funfact-05 .count-box .item .icon {
+		position: relative;
+		top: 0;
+		margin-bottom: 20px;
+	}
+	.bkr003 .funfact-05 {
+		text-align: center;
+	}
+	.bkr003 .latest-news-05 .inner-box {
+		margin-bottom: 100px;
+	}
+	.bkr003 .latest-news-05 .inner-box:before {
+		width: 100%;
+	}
+	.bkr003 .about-06 .img-box {
+		top: 0;
+		margin-top: 30px;
+	}
+	.about-06 .container, .testimonial-06 .container, .design-01 .container, .service-icon-06 .container, .works-01 .container, .gallery-03 .container-fluid, .pricing-04 .container, .skills-06 .container, .resume-03 .container, .funfact-06 .container, .latest-news-06 .container, .contact-05 .container, .bkr003 .footer-bottom-area-06 .container {
+		position: relative;
+		height: auto;
+		min-height: inherit;
+		overflow: hidden;
+		padding-left: 70px;
+    	padding-right: 70px;
+		background: none;
+	}
+	.bkr003 .design-01 .image-box img {
+		max-width: 100%;
+		float: none;
+		width: 100%;
+	}
+	
+	.bkr003 .service-icon-06 .item .icon {
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	.bkr003 .service-icon-06 .item .title h2 {
+		padding-left: 0;
+		margin-top: 30px;
+	}
+	.bkr003 .service-icon-06 .item .text {
+		margin-top: 25px;
+		padding-right: 0;
+	}
+	.bkr003 .gallery-03 .items-container .gallery-item {
+    padding: 0;
+    padding-bottom: 40px;
+}
+.bkr003 .about-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .works-01 .sec-title .bigtitle h1, .bkr003 .pricing-04 .sec-title .bigtitle h1, .bkr003 .resume-03 .sec-title .bigtitle h1, .bkr003 .latest-news-06 .sec-title .bigtitle h1, .bkr003 .contact-05 .sec-title .bigtitle h1 {
+    font-size: 350px;
+    line-height: 300px;
+}
+.bkr003 .pricing-04 .culumn .table-content {
+    margin-top: 0;
+    margin-bottom: 30px;
+}	
+.bkr003 .pricing-04 .culumn {
+    padding: 0px 15px;
+}
+.bkr003 .pricing-04 .culumn .inner-box {
+    margin-bottom: 30px;
+	border-left: 1px solid #E1E1E1;
+}
+.bkr003 .skills-06 .image img {
+    float: none;
+    width: 100%;
+}
+.bkr003 .skills-06 .skill-block {
+    padding: 100px 60px 65px 60px;
+}
+.bkr003 .gallery-03 {
+    padding: 0px 0px 95px 0px;
+}	
+.bkr003 .funfact-06 .count-box .item {
+    padding-left: 0;
+}	
+.bkr003 .latest-news-06 .item .date:before {
+    border-width: 0 500px 50px 0;
+}	
+.bkr003 .latest-news-06 .item .date h4 {
+    top: 0;
+}
+.bkr003 .contact-05 .contact-form .frm-control .btn-box {
+    margin-bottom: 25px;
+}
+.bkr003 .footer-bottom-area-06 .copyright-text {
+    text-align: center;
+}
+.bkr003 .footer-bottom-area-06 .social-list ul {
+    text-align: center;
+}	
+.bkr003 .footer-bottom-area-06 .scroll-to-top {
+    position: relative;
+}	
+.bkr003 .footer-bottom-area-06 .copyright-text p {
+    margin-bottom: 0;
+}	
+.bkr003 .service-icon-02 .sec-title .btn-box {
+    margin-bottom: 40px;
+}	
+.bkr003 .service-icon-02 {
+    background-size: cover;
+}	
+.bkr003 .skills-02 .skill-block {
+    background-size: cover;
+}
+.bkr003 .pricing-02 .inner-box {
+    margin-bottom: 30px;
+}	
+.bkr003 .featured-works-01 .content-column .inner-column {
+    padding-bottom: 195px;
+}	
+.bkr003 .featured-works-01 .featured-block.style-two .content-column .inner-column {
+    left: 0;
+}	
+.bkr003 .featured-works-01 .inner-column .image img {
+    max-width: unset;
+    float: none;
+    width: 100%;
+}
+.bkr003 .featured-works-01 .content-column .inner-column {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}	
+.bkr003 .featured-works-01 .featured-block.style-two .content-column .inner-column {
+    padding-top: 0;
+    padding-bottom: 100px;
+}	
+.bkr003 .featured-works-01 .featured-block.style-three .image-column {
+    padding-top: 100px;
+}
+.bkr003 .featured-works-01 .featured-block.style-three .content-column .inner-column {
+    padding-bottom: 100px;
+}
+.bkr003 .featured-works-01 .featured-block.style-four .content-column .inner-column {
+    left: 0;
+    padding-top: 0;
+}
+.bkr003 .featured-works-01 .content-column .inner-column {
+    margin-left: 0;
+}
+.bkr003 .faq-01 .img-box img {
+    float: none;
+    max-width: unset;
+    width: 100%;
+}	
+.bkr003 .contact-01 .contact-form {
+    padding: 0px 0px;
+}	
+.footer-widget.about-widget {
+    margin-bottom: 40px;
+}
+.footer-widget.links-widget {
+    margin-bottom: 40px;
+}
+.bkr003 .footer-02 .subscribe-widget {
+    margin-bottom: 40px;
+}
+.bkr003 .footer-02 .social-widget {
+    margin-bottom: 40px;
+}
+.bkr003 .footer-02 .links-widget {
+    padding-left: 0;
+}	
+.bkr003 .footer-02 .social-widget {
+    padding-left: 0;
+}
+.bkr003 .footer-bottom-area-02 .copyright-text p {
+    text-align: center;
+}	
+.bkr003 .footer-bottom-area-02 .social-list ul {
+    text-align: center;
+    padding-right: 0;
+}	
+.fixed-left-column {
+    width: 0%;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    z-index: -999;
+}	
+.about-07 .content-container, .resume-05 .content-container, .services-tab-01 .content-container, .skill-07 .content-container, .portfolio-06 .content-container, .testimonials-07 .content-container, .latest-news-08 .content-container, .contact-07 .content-container, .bkr003 .footer-04 .content-container {
+    padding-left: 0%;
+}	
+.fixed-right-nav.scroll-nav-holder {
+    opacity: 0;
+}
+.about-07 .funfact .item {
+    margin-bottom: 50px;
+    text-align: center;
+}	
+.about-07 .funfact .item .count-outer .count-text {
+    padding-left: 0;
+}	
+.about-07:before, .resume-05:before, .services-tab-01:before, .skill-07:before, .portfolio-06:before, .testimonials-07:before, .latest-news-08:before, .contact-07:before {
+    left: 0;
+}	
+.services-tab-01 .tabs-content .img-box img {
+    width: 100%;
+}
+.services-tab-01 .tabs-content .img-box {
+    margin-left: 0 !important;
+}	
+.services-tab-01 .tabs-content .content {
+    margin-top: -5px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}	
+.services-tab-01 .tabs-content .content .quote p {
+    padding-left: 0;
+}	
+.services-tab-01 .tab-buttons .tab-btn {
+    margin-bottom: 15px;
+}
+.latest-news-08 .content {
+    margin-bottom: 30px;
+}	
+.latest-news-08 .row {
+    margin-bottom: 0;
+}	
+.bkr003 .aboutus-01 .img-holder {
+    left: 0;
+}	
+.bkr003 .aboutus-01 .img-holder:before {
+    display: none;
+}	
+.bkr003 .aboutus-01 .img-holder:after {
+    display: none;
+}	
+.bkr003 .aboutus-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .skills-01 .big-title h1, .bkr003 .testimonial-01 .big-title h1, .bkr003 .latest-news-01 .big-title h1, .bkr003 .contac-with-01 .big-title h1, .bkr003 .working-Process-01 .big-title h1 {
+    font-size: 85px;
+}	
+.bkr003 .aboutus-01 .signature {
+    margin-bottom: 50px;
+}	
+.bkr003 .resume-01 .img:before {
+    right: -50px;
+}		
+.bkr003 .resume-01 .img {
+    margin-bottom: 50px;
+    margin-top: 50px;
+	display: inline-block;
+}
+.bkr003 .resume-01 .inner {
+    padding-left: 0;
+}
+.bkr003 .resume-01 .row {
+    margin-top: 0;
+}
+.bkr003 .resume-01 .inner .btn-box {
+    margin-top: 40px;
+}	
+.bkr003 .resume-01 .btn-box {
+    margin-top: 40px;
+}	
+.bkr003 .video-01 .inner .img-box {
+    position: relative;
+    right: 0;
+    top: 0;
+}	
+.bkr003 .video-01 .inner .img-box img {
+    width: 100%;
+}
+.bkr003 .video-01 {
+    padding-bottom: 0;
+}	
+.bkr003 .video-01 .btn-box a {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.bkr003 .video-01 .inner .video-btn {
+    left: 65px;
+    top: unset;
+    bottom: 30px;
+}
+.bkr003 .working-Process-01 .item {
+    margin-bottom: 30px;
+}	
+.portfolio-01 .project-block .image-box img {
+    max-width: unset;
+    width: 100%;
+}
+.bkr003 .skills-01 .round-skill-bar {
+    margin-bottom: 30px;
+}	
+.bkr003 .priching-slider-01 {
+    background: #000;
+}	
+.bkr003 .priching-slider-01 .sec-title {
+    position: relative;
+    margin-bottom: 100px;
+}	
+.bkr003 .priching-slider-01 .owl-carousel {
+    margin: unset;
+}	
+.bkr003 .priching-slider-01 .priching-content {
+    left: 230px;
+}	
+.bkr003 .testimonial-01 .item .rating {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.bkr003 .latest-news-01 .inner-box {
+    padding: 25px 25px 25px 25px;
+}	
+.bkr003 .latest-news-01 .inner-box {
+    margin: 25px 25px 25px 25px;
+}
+.bkr003 .latest-news-01 .inner-box .image {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.bkr003 .contact-info-01 {
+    margin-top: 0;
+    padding-top: 80px;
+    background: #2E2E32;
+}
+.bkr003 .contact-info-01 .content:before {
+    opacity: 0;
+}	
+.bkr003 .contact-info-01 .content {
+    padding-left: 0;
+}	
+.bkr003 .contact-info-01 .contact-info-list {
+    padding-left: 0;
+}	
+.bkr003 .contact-info-01 .big-title {
+    position: relative;
+    top: 0;
+    left: 0;
+}	
+.bkr003 .contact-info-01 .big-title h1 {
+    transform: rotate(0deg);
+}
+.bkr003 .contact-info-01 .content {
+    padding-top: 0;
+}
+.bkr003 .footer-01 .footer-social-links ul li {
+    border: 1px solid #fff;
+    margin: 2px 0px;
+}	
+.bkr003 .latest-news-01 .big-title h1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.bkr003 .header-left {
+    width: 0;
+    display: none;
+}   
+.tabs-box.two {
+    width: 100%;
+}   
+.bkr003 .sweem .header-right {
+    margin-left: 0;
+}   
+.bkr003 .latest-news-02 .right .inner-box {
+    margin-bottom: 75px;
+	display: inline-block;
+}    
+.bkr003 .slider-02 .btn-box {
+    margin-bottom: 30px;
+}
+    
+    
+    
+    
+    
+    
+	
+	
+}
+
+
+@media only screen and (min-width: 992px){
+	
+}
+
+
+@media only screen and (max-width: 1023px){
+	
+
+}
+
+@media only screen and (max-width: 991px){
+	.bkr003 .skill-07 .skill-block {
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+	.bkr003 .about-07 .sec-title .bigtitle h1, .bkr003 .resume-05 .sec-title .bigtitle h1, .bkr003 .skill-07 .sec-title .bigtitle h1, .bkr003 .services-tab-01 .sec-title .bigtitle h1, .bkr003 .portfolio-06 .sec-title .bigtitle h1, .bkr003 .testimonials-07 .sec-title .bigtitle h1, .bkr003 .latest-news-08 .sec-title .bigtitle h1, .bkr003 .contact-07 .sec-title .bigtitle h1 {
+		font-size: 85px;
+		line-height: 85px;
+	}
+	
+	.bkr003 .about-07 .sec-title .bigtitle, .bkr003 .resume-05 .sec-title .bigtitle, .bkr003 .skill-07 .sec-title .bigtitle, .bkr003 .services-tab-01 .sec-title .bigtitle, .bkr003 .portfolio-06 .sec-title .bigtitle, .bkr003 .testimonials-07 .sec-title .bigtitle, .bkr003 .latest-news-08 .sec-title .bigtitle, .bkr003 .contact-07 .sec-title .bigtitle {
+		margin-top: 0;
+	}
+	
+.bkr003 .slider-02 .title h2 {
+    font-size: 60px;
+    margin-left: 0;
+    left: 0;
+}
+	
+.bkr003 .services-tab-01 .calltoaction:before {
+    right: 50px;
+    top: 65px;
+    transform: rotate(0deg);
+}
+	
+.bkr003 .about-07 .image {
+    margin: 0px 0px;
+}
+	
+.bkr003 .power-skills-01 .sec-title {
+	padding: 0px 0px 0px 0px;
+}
+    
+.footer-bottom-area-09 .copyright-text {
+    margin-bottom: 20px;
+}
+.footer-bottom-area-09 .scroll-to-top {
+    bottom: 205px;
+}
+.bkr003 .testimonial-04 .owl-nav {
+    display: none;
+}
+.bkr003 .latest-news-04 .inner-box .image img {
+    max-width: none;
+    width: 100%;
+}
+.bkr003 .resume-02 .inner-box .icon-box {
+    margin: 0px 0px 0px 40px;
+}
+.bkr003 .resume-02 .content .text p {
+    padding-right: 0;
+}
+.bkr003 .skills-03 .image img {
+    display: none;
+}
+.bkr003 .skills-03 .content {
+    position: relative;
+}
+.bkr003 .qualification-01 .tab-buttons li:before {
+    display: none;
+}
+.bkr003 .testimonial-03 .owl-nav {
+    display: none;
+}
+.bkr003 .footer-bottom-area-03 .copyright-text {
+    text-align: center;
+    top: 0;
+}
+.bkr003 .footer-bottom-area-03 .social-list ul {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.bkr003 .footer-bottom-area-03 .scroll-to-top {
+    top: 120px;
+}
+.bkr003 .slider-03 .text-typing p {
+    font-size: 85px;
+}
+span.slider_word {
+	min-height: 130px;
+}
+.bkr003 .service-icon-05 .item {
+    margin-right: 0;
+}	
+.bkr003 .portfolio-04 .filters li {
+    padding: 0px 0px;
+    margin-right: 0;
+}
+.portfolio-04 .filters .text p {
+    padding-left: 0;
+    margin-left: -105px;
+}
+.bkr003 .about-05 .sec-title .title h2, .bkr003 .education-01 .sec-title .title h2, .bkr003 .skills-05 .sec-title .title h2, .bkr003 .service-icon-05 .sec-title .title h2, .bkr003 .portfolio-04 .sec-title .title h2, .bkr003 .testimonial-05 .sec-title .title h2, .bkr003 .latest-news-05 .sec-title .title h2, .bkr003 .contact-04 .sec-title .title h2, .bkr003 .pricing-04 .sec-title .title h2, .bkr003 .latest-news-06 .sec-title .title h2, .bkr003 .contact-05 .sec-title .title h2 {
+	font-size: 85px;
+}	
+.bkr003 .latest-news-05 .sec-title .subtitle h3 {
+    padding-left: 0;
+}	
+.bkr003 .latest-news-05 .inner-box .image img {
+    width: 100%;
+}
+.bkr003 .latest-news-05 .inner-box:before {
+    display: none;
+}
+.bkr003 .latest-news-05 .inner-box {
+    margin-top: 0;
+}
+.bkr003 .about-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .works-01 .sec-title .bigtitle h1, .bkr003 .pricing-04 .sec-title .bigtitle h1, .bkr003 .resume-03 .sec-title .bigtitle h1, .bkr003 .latest-news-06 .sec-title .bigtitle h1, .bkr003 .contact-05 .sec-title .bigtitle h1 {
+    font-size: 250px;
+    line-height: 300px;
+}
+.bkr003 .footer-bottom-area-06 .border {
+    padding-bottom: 0;
+}
+.bkr003 .download-01 .content {
+    width: 100%;
+}	
+.bkr003 .subscribe-01 .content {
+    width: 100%;
+}	
+.bkr003 .subscribe-01 .content .Subscribe-form {
+    padding: 0px 40px;
+}	
+.bkr003 .testimonial-02 .item {
+    margin: 0px 15px;
+}	
+.about-07 .image {
+    margin: 0;
+}	
+.about-07 .img-box:after {
+    opacity: 0;
+}	
+.about-07 .img-box {
+    top: 0 !important;
+    margin-top: 40px;
+}	
+.about-07 .img-box {
+    top: 0;
+    margin-top: 40px;
+}
+.resume-05 .content {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 40px;
+}	
+.about-07 .sec-title .bigtitle, .resume-05 .sec-title .bigtitle, .services-tab-01 .sec-title .bigtitle, .skill-07 .sec-title .bigtitle, .portfolio-06 .sec-title .bigtitle, .testimonials-07 .sec-title .bigtitle, .latest-news-08 .sec-title .bigtitle, .contact-07 .sec-title .bigtitle {
+    top: 0;
+}	
+.services-tab-01 .tabs-content .balance p {
+    float: none !important;
+}	
+.services-tab-01 .calltoaction .btn-box {
+    float: left !important;
+    top: 0 !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}	
+.skill-07 .skill-block .bar-item {
+    padding-left: 0;
+}	
+.skill-07 .text-two p {
+    margin-top: 60px;
+}	
+.testimonials-07 .owl-nav {
+    display: none !important;
+}	
+.bkr003 .footer-04 .social-links ul li {
+    margin: 0px 0px;
+    margin-bottom: 10px;
+}	
+.bkr003 .aboutus-01 .img-holder .title {
+    bottom: 0;
+    left: 0;
+}	
+.bkr003 .funfact-01 .funfact .column:nth-child(1) {
+    left: 0;
+}	
+.bkr003 .funfact-01 .sec-title .big-title, .bkr003 .video-01 .big-title, .bkr003 .power-skills-01 .sec-title .big-title, .bkr003 .our-blog-01 .sec-title .big-title {
+    position: relative;
+    top: 0;
+    left: 0;
+}	
+.bkr003 .funfact-01 .sec-title .big-title h1, .bkr003 .video-01 .big-title h1, .bkr003 .power-skills-01 .sec-title .big-title h1, .bkr003 .our-blog-01 .sec-title .big-title h1 {
+    transform: rotate(0deg);
+}
+.bkr003 .funfact-01 .sec-title {
+    padding: 0px 0px 0px 0px;
+}	
+.bkr003 .funfact-01 .funfact {
+    left: 0;
+}	
+.bkr003 .funfact-01 .funfact .column .item {
+    padding-left: 0;
+    padding-top: 0px;
+}
+.bkr003 .aboutus-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .skills-01 .big-title h1, .bkr003 .testimonial-01 .big-title h1, .bkr003 .latest-news-01 .big-title h1, .bkr003 .contac-with-01 .big-title h1, .bkr003 .working-Process-01 .big-title h1 {
+    font-size: 70px;
+	left: unset;
+}	
+.bkr003 .newsletter-01 .subscribe-form {
+    padding: 0px 0px;
+	top: 0;
+}	
+.bkr003 .newsletter-01 .title h2 {
+    font-size: 45px;
+}	
+.bkr003 .our-blog-01 .sec-title {
+    padding: 0px 0px 0px 0px;
+}	
+.bkr003 .our-blog-01 .sec-title:before {
+    opacity: 0;
+}	
+.bkr003 .our-blog-01 {
+    padding: 100px 0px 120px 0px;
+}	
+	
+	
+.bkr003 .about-05 h2 span {
+    left: 0px;
+}
+.bkr003 .education-01 h2 span {
+    left: 0px;
+}
+.bkr003 .skills-05 h2 span {
+    left: 0px;
+}
+.bkr003 .service-icon-05 h2 span {
+    left: 0px;
+}
+.bkr003 .portfolio-04 h2 span {
+    left: 0px;
+}
+.bkr003 .testimonial-05 h2 span {
+    left: 0px;
+}
+.bkr003 .latest-news-05 h2 span {
+    left: 0px;
+}
+.bkr003 .contact-04 h2 span {
+    left: 0px;
+}	
+.bkr003 .portfolio-05 .project-block {
+    width: 50%;
+}	
+	
+	
+	
+	
+	
+}
+
+@media only screen and (max-width: 767px){
+	.bkr003 .testimonials-07 .item .content {
+		margin-right: 0;
+	}
+	.bkr003 .testimonials-07 .item {
+		margin: 0px 0px;
+	}
+	.bkr003 .about-07 .sec-title .bigtitle h1, .bkr003 .resume-05 .sec-title .bigtitle h1, .bkr003 .skill-07 .sec-title .bigtitle h1, .bkr003 .services-tab-01 .sec-title .bigtitle h1, .bkr003 .portfolio-06 .sec-title .bigtitle h1, .bkr003 .testimonials-07 .sec-title .bigtitle h1, .bkr003 .latest-news-08 .sec-title .bigtitle h1, .bkr003 .contact-07 .sec-title .bigtitle h1 {
+		font-size: 65px;
+		line-height: 65px;
+	}
+	
+.bkr003 .testimonials-07 .owl-nav {
+    opacity: 1;
+}
+.bkr003 .latest-news-08 .content .text p {
+    padding-right: 0;
+}
+	
+.bkr003 .portfolio-06 .filter-tabs {
+    display: block;
+	border: none;
+}
+.bkr003 .portfolio-06 .filters li {
+    min-width: auto;
+    width: 100%;
+    border: 1px solid #E1E1E1;
+    margin-bottom: 20px;
+}
+	
+.bkr003 .services-tab-01 .tabs-content .img-box {
+    margin-bottom: 40px;
+}
+	
+.bkr003 .services-tab-01 .calltoaction:before {
+    opacity: 0;
+}
+	
+.bkr003 .portfolio-03 .project-block {
+	width: 100%;
+}
+.bkr003 .portfolio-02 .filters li.active:before {
+	opacity: 0;
+}
+.portfolio-02 .project-block {
+	width: 100%;
+}
+span.slider_word {
+	display: block;
+}
+span.typed-cursor {
+	display: none;
+}
+.bkr003 .about-05 .sec-title .title h2, .bkr003 .education-01 .sec-title .title h2, .bkr003 .skills-05 .sec-title .title h2, .bkr003 .service-icon-05 .sec-title .title h2, .bkr003 .portfolio-04 .sec-title .title h2, .bkr003 .testimonial-05 .sec-title .title h2, .bkr003 .latest-news-05 .sec-title .title h2, .bkr003 .contact-04 .sec-title .title h2, .bkr003 .latest-news-06 .sec-title .title h2, .bkr003 .contact-05 .sec-title .title h2 {
+	font-size: 70px;
+}
+.bkr003 .about-05 .sec-title .title h2:first-letter, .bkr003 .education-01 .sec-title .title h2:first-letter, .bkr003 .skills-05 .sec-title .title h2:first-letter, .bkr003 .service-icon-05 .sec-title .title h2:first-letter, .bkr003 .portfolio-04 .sec-title .title h2:first-letter, .bkr003 .testimonial-05 .sec-title .title h2:first-letter, .bkr003 .latest-news-05 .sec-title .title h2:first-letter, .bkr003 .contact-04 .sec-title .title h2:first-letter {
+	font-size: 150px;
+}
+.bkr003 .about-05 .content .btn-box a.download-btn {
+	padding: 9px 52px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.bkr003 .about-05 .content .btn-box a.hire-btn {
+	padding: 8px 52px;
+	display: inline-block;
+}
+.bkr003 .service-icon-05 .item {
+    padding: 30px 30px 30px 30px;
+}
+.portfolio-04 .project-block {
+    width: 100%;
+}	
+.bkr003 .portfolio-04 .filters li {
+    padding: 0px 0px;
+    margin-right: 20px !important;
+    margin: 0;
+}
+.bkr003 .latest-news-05 .inner-box .lower-content {
+    padding-left: 100px;
+    padding-right: 0;
+}	
+.bkr003 .about-06 .img-box .image:nth-child(1) {
+    margin-left: 0;
+}	
+.bkr003 .about-06 .img-box .image:nth-child(1):before {
+    display: none;
+}
+.bkr003 .about-06 .img-box .image:nth-child(2) {
+    top: 0;
+    left: 0;
+    margin-top: 30px;
+}	
+.bkr003 .about-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .works-01 .sec-title .bigtitle h1, .bkr003 .pricing-04 .sec-title .bigtitle h1, .bkr003 .latest-news-06 .sec-title .bigtitle h1, .bkr003 .contact-05 .sec-title .bigtitle h1 {
+    font-size: 200px;
+    line-height: 300px;
+}
+.bkr003 .about-06 .sec-title .title h2, .bkr003 .service-icon-06 .sec-title .title h2, .bkr003 .service-icon-06 .sec-title .title h2, .bkr003 .works-01 .sec-title .title h2, .bkr003 .pricing-04 .sec-title .title h2, .bkr003 .resume-03 .sec-title .title h2, .bkr003 .latest-news-06 .sec-title .title h2, .bkr003 .contact-05 .sec-title .title h2 {
+    font-size: 50px;
+    line-height: 65px;
+}
+.bkr003 .gallery-03 .items-container .gallery-item {
+    padding-bottom: 20px;
+}
+.bkr003 .service-icon-06 .item {
+    margin: 0 0px;
+    margin-bottom: 35px;
+}	
+.bkr003 .gallery-03 .sortable-masonry {
+    padding: 0px 0px;
+}
+.bkr003 .pricing-04 .tabs-box .tab.active-tab {
+    padding-right: 0px;
+}		
+.bkr003 .footer-bottom-area-06 .social-list ul li {
+    margin: 0px 0px;
+    margin-bottom: 5px;
+}	
+.bkr003 .download-01 .content .title h2 {
+    font-size: 100px;
+    margin-bottom: 25px;
+}	
+.bkr003 .skills-02 .skill-block .inner-box {
+    margin: 0px 20px 0px 20px;
+}	
+.bkr003 .featured-works-01 .content-column .inner-column {
+    margin: 0 15px;
+}	
+.bkr003 .featured-works-01 .inner-column h3 {
+    padding-right: 0;
+}
+.bkr003 .latest-news-02 .right .inner-box {
+    padding-left: 0;
+    padding-right: 0;
+}
+.bkr003 .latest-news-02 .right .inner-box .image {
+    position: relative;
+    display: inline-block;
+}
+.bkr003 .latest-news-02 .right .inner-box .lower-content h4 {
+    margin-top: 30px;
+}
+.portfolio-06 .project-block {
+    width: 100%;
+}	
+.portfolio-06 .filter-tabs {
+    border: none;
+}	
+.portfolio-06 .filters li {
+    margin-bottom: 10px;
+}
+.banner-section .decor-numb {
+    display: none;
+}
+.banner-section .banner-slider-pagination {
+	display: none;
+}
+.bkr003 .aboutus-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .skills-01 .big-title h1, .bkr003 .testimonial-01 .big-title h1, .bkr003 .latest-news-01 .big-title h1, .bkr003 .contac-with-01 .big-title h1, .bkr003 .working-Process-01 .big-title h1 {
+    font-size: 50px;
+}	
+.bkr003 .working-Process-01 .sec-btn {
+    padding-top: 0;
+}	
+.bkr003 .working-Process-01 .sec-btn a {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 30px;
+}	
+.portfolio-01 .project-block {
+    width: 100%;
+    margin-left: 0;
+}	
+.portfolio-01 .portfolio-pagination {
+    position: relative;
+    left: 0;
+}	
+.portfolio-01 .portfolio-pagination .inner {
+    display: inline-block;
+    margin-bottom: 30px;
+}	
+.portfolio-01 .filters li {
+    margin-left: 0;
+}	
+.portfolio-01 .filter-nrm {
+    float: none;
+}	
+.portfolio-01 .filters .filter-btns {
+    padding-right: 0;
+    padding-left: 0;
+}	
+.bkr003 .priching-slider-01 .owl-carousel {
+    margin: 0 auto;
+    max-width: 100%;
+}	
+.bkr003 .priching-slider-01 .priching-content {
+    left: 0;
+}	
+.bkr003 .priching-slider-01 .owl-item .item {
+    max-width: 100%;
+}	
+.breadcrumb-area .title {
+    float: none !important;
+    text-align: center;
+}	
+.breadcrumb-area .breadcrumb-menu {
+    display: block;
+    float: none !important;
+    text-align: center;
+    margin-top: 25px;
+}
+	
+	
+}
+
+@media only screen and (max-width: 640px) {
+	.about-06, .testimonial-06, .design-01, .service-icon-06, .works-01, .gallery-03, .pricing-04, .skills-06, .resume-03, .funfact-06, .latest-news-06, .contact-05, .footer-bottom-area-06 {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.bkr003 .about-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .works-01 .sec-title .bigtitle h1, .bkr003 .resume-03 .sec-title .bigtitle h1, .bkr003 .latest-news-06 .sec-title .bigtitle h1, .bkr003 .contact-05 .sec-title .bigtitle h1 {
+		font-size: 200px;
+	}
+	.bkr003 .about-06 .sec-title .title h2, .bkr003 .service-icon-06 .sec-title .title h2, .bkr003 .service-icon-06 .sec-title .title h2, .bkr003 .works-01 .sec-title .title h2, .bkr003 .resume-03 .sec-title .title h2, .bkr003 .latest-news-06 .sec-title .title h2, .bkr003 .contact-05 .sec-title .title h2 {
+		font-size: 40px;
+		line-height: 65px;
+	}
+	.bkr003 .gallery-03 {
+		padding: 0px 0px 85px 0px;
+	}
+.about-06 .container, .testimonial-06 .container, .design-01 .container, .service-icon-06 .container, .works-01 .container, .gallery-03 .container-fluid, .pricing-04 .container, .skills-06 .container, .resume-03 .container, .funfact-06 .container, .latest-news-06 .container, .contact-05 .container, .footer-bottom-area-06 .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.bkr003 .skills-06 .skill-block {
+	padding: 100px 0px 65px 0px;
+}
+.bkr003 .latest-news-06 .item .date:before {
+    border-width: 0 700px 50px 0;
+}	
+.about-07 .sec-title .bigtitle h1, .resume-05 .sec-title .bigtitle h1, .services-tab-01 .sec-title .bigtitle h1, .skill-07 .sec-title .bigtitle h1, .portfolio-06 .sec-title .bigtitle h1, .testimonials-07 .sec-title .bigtitle h1, .latest-news-08 .sec-title .bigtitle h1, .contact-07 .sec-title .bigtitle  h1{
+    font-size: 60px !important;
+}
+.bkr003 .power-skills-01 .sec-title {
+    padding: 0px 0px 0px 0px;
+}
+.bkr003 .portfolio-05 .project-block {
+    width: 100%;
+}
+	
+	
+}
+
+@media only screen and (max-width: 599px){
+.bkr003 .slider-01 .content .social-list ul {
+    opacity: 0;
+}
+.bkr003 .qualification-01 .tab-buttons li {
+    font-size: 55px;
+    line-height: 90px;
+    margin: 0px 0px;
+}
+.bkr003 .education-01 .image:nth-child(2) {
+    top: 0;
+    left: 0;
+    margin-top: 25px;
+}
+.bkr003 .education-01 .image:nth-child(2):after {
+    left: 0;
+}
+.bkr003 .education-01 .image img {
+    width: 100%;
+}
+.bkr003 .education-01 .image {
+    margin-top: 0;
+    margin-left: 0;
+}		
+.bkr003 .about-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .service-icon-06 .sec-title .bigtitle h1, .bkr003 .works-01 .sec-title .bigtitle h1, .bkr003 .pricing-04 .sec-title .bigtitle h1, .bkr003 .resume-03 .sec-title .bigtitle h1, .bkr003 .latest-news-06 .sec-title .bigtitle h1, .bkr003 .contact-05 .sec-title .bigtitle h1 {
+	font-size: 100px;
+	line-height: 200px;
+}	
+.bkr003 .about-06 .sec-title, .bkr003 .service-icon-06 .sec-title, .bkr003 .service-icon-06 .sec-title, .bkr003 .works-01 .sec-title {
+    margin-bottom: 45px;
+}
+.bkr003 .resume-03 .left-content .title h2 {
+    font-size: 50px;
+}	
+.bkr003 .resume-03 .right-content .title h2 {
+    font-size: 45px;
+}
+.bkr003 .service-icon-02 .sec-title .title h2, .bkr003 .download-01 .content .title h2, .bkr003 .skills-02 .sec-title .title h2, .bkr003 .funfact-02 .sec-title .title h2, .bkr003 .subscribe-01 .content .title h2, .bkr003 .pricing-02 .sec-title .title h2, .bkr003 .featured-works-01 .sec-title .title h2, .bkr003 .testimonial-02 .sec-title .title h2, .bkr003 .faq-01 .sec-title .title h2, .bkr003 .latest-news-02 .sec-title .title h2, .bkr003 .contact-01 .sec-title .title h2 {
+    font-size: 75px;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+.bkr003 .download-01 .content .subtitle h3, .bkr003 .skills-02 .sec-title .subtitle h3, .bkr003 .service-icon-02 .sec-title .subtitle h3, .bkr003 .funfact-02 .sec-title .subtitle h3, .bkr003 .subscribe-01 .content .subtitle h3, .bkr003 .pricing-02 .sec-title .subtitle h3, .bkr003 .featured-works-01 .sec-title .subtitle h3, .bkr003 .testimonial-02 .sec-title .subtitle h3, .bkr003 .faq-01 .sec-title .subtitle h3, .bkr003 .latest-news-02 .sec-title .subtitle h3, .bkr003 .contact-01 .sec-title .subtitle h3 {
+	font-size: 25px;
+}	
+.banner-section-01 .banner-slider-control-wrap {
+    display: none;
+}	
+.bkr003 .aboutus-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .skills-01 .big-title h1, .bkr003 .testimonial-01 .big-title h1, .bkr003 .latest-news-01 .big-title h1, .bkr003 .contac-with-01 .big-title h1 {
+    font-size: 30px;
+	left: 0;
+}	
+.bkr003 .resume-01 .img:before {
+    opacity: 0;
+}	
+.bkr003 .resume-01 .img:after {
+    opacity: 0;
+}	
+.bkr003 .resume-01 .img {
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 100%;
+}	
+.bkr003 .resume-01 .date {
+    float: none;
+    top: 0;
+    left: 0px;
+}
+.bkr003 .testimonial-01 .item {
+    padding: 25px 25px 25px 25px;
+}	
+.bkr003 .testimonial-01 .item .img-box {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 20px;
+}	
+.bkr003 .testimonial-01 .item .img-box img {
+    max-width: 100%;
+    width: unset;
+}	
+.bkr003 .newsletter-01 .title h2 {
+    font-size: 30px;
+}	
+.bkr003 .contact-info-01 .big-title h1 {
+    font-size: 55px;
+}	
+.bkr003 .contact-info-01 .contact-info-list li {
+    padding-left: 0;
+}	
+.bkr003 .contact-info-01 .contact-info-list li span {
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+}	
+.scroll-to-top.one {
+    bottom: 75px;
+    right: 20px;
+}    
+.bkr003 .aboutus-01 .link-btn .btn-style-one {
+    display: inline-block;
+    margin-bottom: 30px;
+}   
+.bkr003 .aboutus-01 .text p {
+    padding-right: 0;
+} 
+.bkr003 .slider-02 .text_typing p {
+    font-size: 22px;
+    line-height: 45px;
+    margin-bottom: 0;
+}
+    
+}
+
+@media only screen and (max-width: 479px) {
+	.page_pagination_two li {
+		margin-bottom: 20px;
+	}
+	.bkr003 .about-04 .image:before {
+		width: 100%;
+		height: 100%;
+	}
+	.bkr003 .about-04 .image:after {
+		opacity: 0;
+	}
+	.bkr003 .portfolio-03 .filters li {
+		margin-right: 30px !important;
+		margin: 0px;
+	}
+	
+	.bkr003 .pricing-03 .tab-buttons {
+		background: transparent;
+	}
+	.bkr003 .pricing-03 .tab-buttons .tab-btn {
+		margin-bottom: 20px;
+	}
+	.bkr003 .footer-bottom-area-03 .social-list ul li {
+		margin: 0px 0px;
+	}
+	.bkr003 .slider-03 .text-typing p {
+		font-size: 40px;
+	}
+	.bkr003 .about-05 .sec-title .title h2, .bkr003 .education-01 .sec-title .title h2, .bkr003 .skills-05 .sec-title .title h2, .bkr003 .service-icon-05 .sec-title .title h2, .bkr003 .portfolio-04 .sec-title .title h2, .bkr003 .testimonial-05 .sec-title .title h2, .bkr003 .latest-news-05 .sec-title .title h2, .bkr003 .contact-04 .sec-title .title h2, .bkr003 .pricing-04 .sec-title .title h2, .bkr003 .resume-03 .sec-title .title h2, .bkr003 .latest-news-06 .sec-title .title h2, .bkr003 .contact-05 .sec-title .title h2 {
+		font-size: 40px;
+	}
+	.bkr003 .pricing-04 .tab-buttons .tab-btn {
+		border: 2px solid #FE9600;
+		margin-top: 10px;
+	}
+	.bkr003 .pricing-04 .tab-buttons {
+		border: none;
+	}
+	.bkr003 .download-01 .content .title h2 {
+		font-size: 60px;
+	}
+	.bkr003 .download-01 .content .link-btn .app-btn {
+		margin-bottom: 20px;
+	}
+	.bkr003 .service-icon-02 .sec-title .title h2, .bkr003 .download-01 .content .title h2, .bkr003 .skills-02 .sec-title .title h2, .bkr003 .funfact-02 .sec-title .title h2, .bkr003 .subscribe-01 .content .title h2, .bkr003 .pricing-02 .sec-title .title h2, .bkr003 .featured-works-01 .sec-title .title h2, .bkr003 .testimonial-02 .sec-title .title h2, .bkr003 .faq-01 .sec-title .title h2, .bkr003 .latest-news-02 .sec-title .title h2, .bkr003 .contact-01 .sec-title .title h2 {
+		font-size: 55px;
+		line-height: 60px;
+	}
+	.bkr003 .faq-01 .accordion-box .block .acc-btn {
+		padding-right: 35px;
+	}
+
+.about-07 .sec-title .bigtitle h1, .resume-05 .sec-title .bigtitle h1, .services-tab-01 .sec-title .bigtitle h1, .skill-07 .sec-title .bigtitle h1, .portfolio-06 .sec-title .bigtitle h1, .testimonials-07 .sec-title .bigtitle h1, .latest-news-08 .sec-title .bigtitle h1, .contact-07 .sec-title .bigtitle h1 {
+    font-size: 35px !important;
+    line-height: 35px !important;
+}
+.about-07 .sec-title .title h2, .resume-05 .sec-title .title h2, .portfolio-06 .sec-title .title h2, .services-tab-01 .sec-title .title h2, .skill-07 .sec-title .title h2, .portfolio-06 .sec-title .title h2, .testimonials-07 .sec-title .title h2, .latest-news-08 .sec-title .title h2, .contact-07 .sec-title .title h2  {
+    font-size: 30px !important;
+}	
+.testimonials-07 .item .img-box {
+    left: 0 !important;
+    top: -15px !important;
+}
+.bkr003 .testimonials-07 .item .img-holder {
+    padding: 20px 0px 0px 155px;
+}
+.banner-section h1 {
+    font-size: 25px;
+    line-height: 45px;
+}
+.bkr003 .funfact-01 .sec-title .big-title h1 {
+    font-size: 40px;
+}	
+.bkr003 .aboutus-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .resume-01 .big-title h1, .bkr003 .skills-01 .big-title h1, .bkr003 .testimonial-01 .big-title h1, .bkr003 .latest-news-01 .big-title h1, .bkr003 .contac-with-01 .big-title h1, .bkr003 .working-Process-01 .big-title h1 {
+    display: none;
+}	
+.bkr003 .priching-slider-01 .item .title h3 a {
+    padding-left: 0;
+}	
+.bkr003 .priching-slider-01 .item .designation {
+    padding-left: 0;
+}	
+.bkr003 .priching-slider-01 .item .title h3:before {
+    opacity: 0;
+}	
+.bkr003 .video-01 .title h2 {
+    font-size: 35px;
+	line-height: 50px;
+}	
+.bkr003 .funfact-01 .sec-title .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}	
+.bkr003 .resume-01 .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.bkr003 .video-01 .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.bkr003 .working-Process-01 .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.bkr003 .portfolio-01 .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}	
+.bkr003 .video-01 .big-title h1 {
+    font-size: 60px;
+}	
+.bkr003 .power-skills-01 .sec-title .big-title h1 {
+    font-size: 60px;
+}	
+.bkr003 .power-skills-01 .sec-title .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.bkr003 .priching-slider-01 .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.bkr003 .testimonial-01 .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.bkr003 .our-blog-01 .sec-title .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.bkr003 .contact-info-01 .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.bkr003 .contac-with-01 .title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}	
+.bkr003 .our-blog-01 .sec-title .big-title h1 {
+    font-size: 60px;
+    line-height: 85px;
+}
+.bkr003 .contact-info-01 .big-title h1 {
+    font-size: 40px;
+}	
+.bkr003 .slider-02 .title h2 {
+    font-size: 50px;
+}	
+.bkr003 .footer-bottom-area-04 .copyright-text {
+    padding-right: 50px;
+}	
+	
+	
+	
+	
+	
+	
+
+}

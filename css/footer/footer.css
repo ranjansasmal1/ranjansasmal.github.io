@@ -1,0 +1,311 @@
+/*** 
+
+====================================================================
+	footer-bottom-area-04
+====================================================================
+
+ ***/
+
+.bkr003 .footer-bottom-area-04 {
+    position: relative;
+    background: #152136;
+    padding: 50px 0px 50px 0px;
+}
+.bkr003 .footer-bottom-area-04 .copyright-text {
+    position: relative;
+    top: 10px;
+}
+.bkr003 .footer-bottom-area-04 .copyright-text p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.bkr003 .footer-bottom-area-04 .copyright-text p a {
+	color: #FFFFFF;
+}
+
+.bkr003 .footer-bottom-area-04 .social-list {}
+.bkr003 .footer-bottom-area-04 .social-list ul {
+    text-align: right;
+}
+.bkr003 .footer-bottom-area-04 .social-list ul li {
+    display: inline-block;
+    margin: 0px 10px;
+	transition: all 700ms ease;
+}
+.bkr003 .footer-bottom-area-04 .social-list ul li a {
+	font-size: 18px;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    transition: all 700ms ease;
+}
+.bkr003 .footer-bottom-area-04 .scroll-to-top {
+    position: relative;
+    margin-bottom: 0;
+    float: right;
+    top: 0;
+    right: 0;
+    border: 2px solid #ef0d33;
+    background: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #ef0d33;
+    margin-top: -43px;
+    text-align: center;
+    cursor: pointer;
+}
+.bkr003 .footer-bottom-area-04 .scroll-to-top span:before {
+    font-size: 18px;
+}
+.bkr003 .footer-bottom-area-04 .social-list ul li a span {
+	background: #1A2840;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+	transition: all 700ms ease;
+}
+.bkr003 .footer-bottom-area-04 .social-list ul li a span:before {
+    color: #fff;
+    font-size: 18px;
+	transition: all 700ms ease;
+}
+.bkr003 .footer-bottom-area-04 .social-list ul li:hover a span{
+	background: #ef0d33;
+	transition: all 700ms ease;
+}
+
+.bkr003 .footer-bottom-area-04 {
+    position: relative;
+    background: rgba(17, 21, 23, 0.9);
+    padding: 50px 0px 50px 0px;
+}
+
+
+
+/*** 
+
+====================================================================
+	footer 09
+====================================================================
+
+ ***/
+
+.bkr003 .footer-09 {
+    position: relative;
+    padding: 160px 0px 100px;
+}
+.bkr003 .footer-09 .about-widget {}
+.bkr003 .footer-09 .about-widget .footer-logo {
+    margin-bottom: 30px;
+}
+.bkr003 .footer-09 .about-widget .footer-logo img {}
+.bkr003 .footer-09 .about-widget .text {}
+.bkr003 .footer-09 .about-widget .text p {
+    font-size: 16px;
+    color: #777777;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.bkr003 .footer-09 .about-widget .info {}
+.bkr003 .footer-09 .about-widget .info li {}
+.bkr003 .footer-09 .about-widget .info li a {
+    font-size: 16px;
+    color: #777777;
+    line-height: 30px;
+}
+.bkr003 .footer-09 .about-widget .social-list {
+    margin-top: 25px;
+}
+.bkr003 .footer-09 .about-widget .social-list li {
+    display: inline-block;
+    margin-right: 10px;
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transition: all 700ms ease;
+}
+.bkr003 .footer-09 .about-widget .social-list li:hover {
+    color: #ffffff;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 700ms ease;
+}
+.bkr003 .footer-09 .about-widget .social-list li a {}
+.bkr003 .footer-09 .about-widget .social-list li a span {
+    border: 1px solid #E7E7E7;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #222222;
+    background: transparent;
+    transition: all 700ms ease;
+    text-align: center;
+}
+.bkr003 .footer-09 .about-widget .social-list li:hover a span {
+    color: #ef0d33;
+}
+.bkr003 .footer-09 .about-widget .info li.phn a {
+    color: #7362FF;
+}
+.bkr003 .footer-09 .about-widget .info li.phn {
+    margin-top: 12px;
+}
+
+.bkr003 .footer-09 .service-widget {}
+.bkr003 .footer-09 .service-widget .widget-title {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.bkr003 .footer-09 .service-widget .list {}
+.bkr003 .footer-09 .service-widget .list li {
+    padding: 5px 0px;
+}
+.bkr003 .footer-09 .service-widget .list li a {
+    font-size: 16px;
+    color: #777777;
+    transition: all 700ms ease;
+}
+.bkr003 .footer-09 .service-widget .list li a:hover {
+    color: #ef0d33;
+    transition: all 700ms ease;
+}
+
+.bkr003 .footer-09 .about-us-widget {}
+.bkr003 .footer-09 .about-us-widget .widget-title {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.bkr003 .footer-09 .about-us-widget .list {}
+.bkr003 .footer-09 .about-us-widget .list li {
+    padding: 5px 0px;
+}
+.bkr003 .footer-09 .about-us-widget .list li a {
+    font-size: 16px;
+    color: #777777;
+    transition: all 700ms ease;
+}
+.bkr003 .footer-09 .about-us-widget .list li a:hover {
+    color: #ef0d33;
+    transition: all 700ms ease;
+}
+
+
+.bkr003 .footer-09 .subscribe-widget {}
+.bkr003 .footer-09 .subscribe-widget .widget-title {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.bkr003 .footer-09 .subscribe-widget .footer-subscribe .inner {
+	position: relative;
+}
+.bkr003 .footer-09 .subscribe-widget .footer-subscribe input {
+    border: 1px solid #E1E1E1;
+    background: transparent;
+    height: 48px;
+    width: 100%;
+    padding: 0px 15px;
+    position: relative;
+    border-radius: 30px;
+}
+.bkr003 .footer-09 .subscribe-widget .footer-subscribe input::placeholder {
+    color: #777777;
+    font-size: 16px;
+}
+.bkr003 .footer-09 .subscribe-widget .footer-subscribe span {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+.bkr003 .footer-09 .subscribe-widget .footer-subscribe span:before {
+    font-size: 20px;
+    color: #fff;
+}
+.bkr003 .footer-09 .subscribe-widget .footer-subscribe button {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    background: #ef0d33;
+    padding: 5px 50px;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+.bkr003 .footer-09 .subscribe-widget .footer-subscribe button {
+    background-image: -webkit-linear-gradient(315deg, #222222 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #222222 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #222222 50%, transparent 50%);
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.bkr003 .footer-09 .subscribe-widget .footer-subscribe button:hover {
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+}
+
+/*** 
+
+====================================================================
+	footer-bottom-area-09
+====================================================================
+
+ ***/
+
+.footer-bottom-area-09 {
+    position: relative;
+    background: #EEEEEE;
+    padding: 40px 0px;
+}
+.footer-bottom-area-09 .copyright-text {}
+.footer-bottom-area-09 .copyright-text p {
+    margin-bottom: 0;
+}
+.footer-bottom-area-09 .list {
+    text-align: right;
+}
+.footer-bottom-area-09 .list li {
+    color: #222222;
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-bottom-area-09 .list li a {
+    color: #222222;
+}
+.footer-bottom-area-09 .scroll-to-top {
+    position: absolute;
+    margin-bottom: 0;
+    top: 50px;
+    margin: auto;
+    border: 1px solid #ef0d33;
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #222222;
+    left: 0;
+    bottom: 155px;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-bottom-area-09 .scroll-to-top span:before {
+    font-size: 18px;
+}

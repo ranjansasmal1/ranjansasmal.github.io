@@ -1,0 +1,228 @@
+/*** 
+
+====================================================================
+	contact-section
+====================================================================
+
+ ***/
+
+.bkr003 .contact-07 {
+    position: relative;
+    padding: 100px 0px 60px 0px;
+    z-index: 1;
+}
+.bkr003 .contact-07:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-image: url(../../images/background/home-7-sec-end.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px;
+    opacity: 0;
+}
+.fixed-right-nav.scroll-nav-holder {
+    height: 0px;
+}
+.bkr003 .contact-07 .content-container {
+    position: relative;
+}
+.bkr003 .contact-07 .small-container {
+    position: relative;
+    max-width: 1224px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+.bkr003 .contact-07 .sec-title {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 100px;
+	margin-top: -19px;
+	z-index: 1;
+}
+.bkr003 .contact-07 .sec-title:before {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    width: 5px;
+    height: 100px;
+    z-index: 188;
+    background: #ef0d33;
+}
+.bkr003 .contact-07 .sec-title .title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-transform: uppercase;
+}
+.bkr003 .contact-07 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    /* font-style: italic; */
+}
+.bkr003 .contact-07 .sec-title .bigtitle {
+    float: right;
+    position: relative;
+    margin-top: -100px;
+}
+.bkr003 .contact-07 .sec-title .bigtitle h1 {
+    font-size: 140px;
+	line-height: 140px;
+    color: #DDDDDD;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: -1;
+}
+.bkr003 .contact-07 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    /* font-style: italic; */
+}
+.bkr003 .contact-07 .content h3 {
+    font-size: 24px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.bkr003 .contact-07 .content p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 30px;
+}
+.bkr003 .contact-07 .content .list {
+    margin-top: 45px;
+}
+.bkr003 .contact-07 .content .list li {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.bkr003 .contact-07 .content .list li i {
+    font-size: 25px;
+    color: #ef0d33;
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.bkr003 .contact-07 .contact-form h3 {
+    font-size: 24px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.bkr003 .contact-07 .contact-form .frm-control input {
+    border: 1px solid #313552;
+    width: 100%;
+    height: 58px;
+    padding: 0px 32px;
+    background: #313552;
+}
+.bkr003 .contact-07 .contact-form .frm-control i {
+    font-size: 14px;
+    color: #FAC921;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.bkr003 .contact-07 .contact-form .frm-control input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #777777;
+	font-size: 14px;
+	font-weight: 500;
+}
+.bkr003 .contact-07 .contact-form textarea {
+    border: 1px solid #313552;
+    width: 100%;
+    height: 168px;
+    padding: 20px 20px;
+    background: #313552;
+}
+.bkr003 .contact-07 .contact-form textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #777777;
+	font-size: 14px;
+	font-weight: 500;
+}
+.bkr003 .contact-07 .contact-form .frm-control {
+    position: relative;
+    margin-bottom: 22px;
+}
+.bkr003 .contact-07 .contact-form .frm-control .btn-box {
+    margin-top: 22px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    background: #ef0d33;
+    padding: 12px 40px;
+    display: inline-block;
+}
+.bkr003 .contact-07 .contact-form .frm-control .btn-box {
+    background-image: -webkit-linear-gradient(315deg, #fff 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #fff 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #fff 50%, transparent 50%);
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.bkr003 .contact-07 .contact-form .frm-control .btn-box:hover {
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+    color: #ef0d33;
+}
+
+.bkr003 .contact-07.two {
+    padding-left: 300px;
+    background: #2a2c47;
+}
+
+.bkr003 .contact-07.two .sec-title .text p {
+    color: #fff;
+}
+
+.bkr003 .contact-07.two .content h3 {
+    color: #fff;
+}
+
+.bkr003 .contact-07.two .contact-form h3 {
+    color: #fff;
+}
+
+.bkr003 .contact-07.two .content p {
+    color: #fff;
+}
+
+.bkr003 .contact-07.two .content .list li {
+    color: #fff;
+}
+
+.bkr003 .contact-07.two .contact-form .frm-control input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+}
+
+.bkr003 .contact-07.two .contact-form textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+}
+
+.bkr003 .contact-07.two .title-fill:after {
+    color: #ffffff;
+}
+.bkr003 .contact-07.two .content h2 .title-fill:after {
+    color: #222222;
+}
+.bkr003 .contact-07.two .title-fill:before, .dark-bg-2 .title-fill:before {
+    color: #ef0d33;
+}
+.bkr003 .contact-07.two .sec-title .text p {
+    color: #fff;
+}
+.bkr003 .contact-07.two .sec-title .bigtitle h1 {
+    color: #00000021;
+}

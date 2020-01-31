@@ -1,0 +1,487 @@
+/*** 
+
+====================================================================
+	funfact-01
+====================================================================
+
+ ***/
+
+.bkr003 .funfact-01 {
+    position: relative;
+    padding: 100px 0px 212px 0px;
+    background-repeat: no-repeat;
+}
+.bkr003 .funfact-01:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: url(../../images/background/funfact-01-01.html);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.bkr003 .funfact-01 .sec-title {
+    padding: 0px 0px 0px 101px;
+    position: relative;
+}
+.bkr003 .funfact-01 .sec-title:before {
+    position: absolute;
+    left: 420px;
+    bottom: -280px;
+    content: "";
+    width: 71px;
+    background: #666666;
+    height: 2px;
+    z-index: 188;
+}
+.bkr003 .funfact-01 .sec-title .big-title {
+    position: absolute;
+    top: 136px;
+    left: -188px;
+}
+.bkr003 .funfact-01 .sec-title .big-title h1 {
+    font-size: 78px;
+    color: #414145;
+    font-weight: 700;
+    transform: rotate(-90deg);
+    display: inline-block;
+    
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.bkr003 .funfact-01 .sec-title .shape {
+	position: relative;
+}
+.bkr003 .funfact-01 .sec-title .shape:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: url(../../images/background/shape.html);
+    width: 50px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+.bkr003 .funfact-01 .sec-title .title {
+    overflow: hidden;
+}
+.bkr003 .funfact-01 .sec-title .title h2 {
+    position: relative;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 42px;
+}
+.bkr003 .funfact-01 .shape-two {
+	position: relative;
+}
+.bkr003 .funfact-01 .shape-two:before {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    content: "";
+    border-width: 1px;
+    border-color: rgb(85, 85, 85);
+    border-style: dashed;
+    width: 48px;
+    height: 0;
+    z-index: 188;
+}
+.bkr003 .funfact-01 .sec-title .title h2 span {
+    /* color: #FAC921; */
+}
+.bkr003 .funfact-01 .sec-title .text p {
+    color: #BBBBBB;
+}
+.bkr003 .funfact-01 .sec-title .text {
+    margin-top: 50px;
+}
+
+.bkr003 .funfact-01 .funfact {
+    position: relative;
+    left: 30px;
+}
+.bkr003 .funfact-01 .funfact .column {}
+.bkr003 .funfact-01 .funfact .column .item {
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.bkr003 .funfact-01 .funfact .column .item .icon {}
+.bkr003 .funfact-01 .funfact .column .item .icon span {}
+.bkr003 .funfact-01 .funfact .column .item .count-outer {
+    margin-bottom: 60px;
+}
+.bkr003 .funfact-01 .funfact .column .item .count-outer .count-text {
+    font-size: 44px;
+    color: #FFFFFF;
+    font-weight: 700;
+    position: relative;
+    left: 108px;
+    top: 50px;
+}
+.bkr003 .funfact-01 .funfact .column .item .counter-title {
+    position: relative;
+    font-size: 11px;
+    color: #BBBBBB;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: 1px solid #202021;
+    background: rgba(45, 45, 50, 0.57);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 52%, 25% 50%);
+    top: -40px;
+}
+.bkr003 .funfact-01 .funfact .column .item .counter-title:before {
+    position: absolute;
+    left: 47px;
+    top: 44px;
+    content: "";
+    width: 142px;
+    height: 1px;
+    background: #202021;
+    z-index: 90;
+}
+.bkr003 .funfact-01 .funfact .column .item .counter-title:after {
+    position: absolute;
+    left: -9px;
+    top: 22px;
+    content: "";
+    width: 65px;
+    height: 1px;
+    background: #202021;
+    transform: rotate(-137deg);
+}
+.bkr003 .funfact-01 .funfact .column .item .counter-title p {
+    position: relative;
+    top: 30px;
+    padding: 20px 27px;
+    font-size: 12px;
+}
+.bkr003 .funfact-01 .funfact .column:nth-child(1){
+	position: relative;
+	left: 20px;
+}
+.bkr003 .funfact-01 .funfact .column:nth-child(4) .item .count-outer .count-text{
+	position: relative;
+	left: 80px;
+}
+
+
+/*** 
+
+====================================================================
+	funfact-02
+====================================================================
+
+ ***/
+
+.bkr003 .funfact-02 {
+    position: relative;
+    text-align: center;
+    padding: 130px 0px 110px 0px;
+}
+.bkr003 .funfact-02:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    transition: all 700ms ease !important;
+}
+.bkr003 .funfact-02 .funfact {
+    margin-top: 25px;
+}
+.bkr003 .funfact-02 .sec-title {
+    margin-bottom: 25px;
+}
+.bkr003 .funfact-02 .sec-title .title {}
+.bkr003 .funfact-02 .sec-title .title h2 {
+    position: relative;
+    font-size: 130px;
+    color: #FFC500;
+    line-height: 138px;
+    margin-bottom: 55px;
+    
+    font-weight: 200;
+}
+.bkr003 .funfact-02 .sec-title .title h2:before {
+    content: "";
+    background-color: #585858;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    bottom: -25px;
+    width: 30px;
+    height: 2px;
+    z-index: 398;
+}
+.bkr003 .funfact-02 .sec-title .subtitle h3 {
+    font-size: 31px;
+    color: #fff;
+    font-weight: 200;
+    
+}
+.bkr003 .funfact-02 .sec-title .subtitle h3 span {
+    color: #8BED5C;
+    display: block;
+    position: relative;
+    top: -12px;
+}
+.bkr003 .funfact-02 .funfact .column .item {
+    /* padding-left: 80px; */
+    padding-top: 30px;
+}
+.bkr003 .funfact-02 .funfact .column .item .icon {}
+.bkr003 .funfact-02 .funfact .column .item .icon span {}
+.bkr003 .funfact-02 .funfact .column .item .count-outer {
+    margin-bottom: 60px;
+}
+.bkr003 .funfact-02 .funfact .column .item .count-outer .count-text {
+    font-size: 60px;
+    color: #FFFFFF;
+    position: relative;
+    left: 0;
+    top: 50px;
+    
+    font-weight: 300;
+}
+.bkr003 .funfact-02 .funfact .column .item .counter-title {
+    position: relative;
+    top: -24px;
+}
+.bkr003 .funfact-02 .funfact .column .item .counter-title p {
+    position: relative;
+    top: 30px;
+    padding: 20px 27px;
+    font-size: 16px;
+    color: #FFC500;
+    margin-left: -5px;
+    left: 5px;
+	
+}
+.bkr003 .funfact-02 .item .icon {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.bkr003 .funfact-02 .item .icon span:before {
+    font-size: 36px;
+    color: #fff;
+}
+
+/*** 
+
+====================================================================
+	funfact-03
+====================================================================
+
+ ***/
+
+.bkr003 .funfact-03 {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.bkr003 .funfact-03:before {
+    position: absolute;
+    content: "";
+    bottom: -55px;
+    left: 0;
+    margin-left: 530px;
+    background: url(../../images/background/funfact-03-bg.html);
+    width: 131px;
+    height: 6px;
+    background-repeat: no-repeat;
+}
+.bkr003 .funfact-03 .funfact .column .item {
+	position: relative;
+    padding-top: 30px;
+}
+.bkr003 .funfact-03 .funfact .column .item:before {
+    position: absolute;
+    content: "";
+    top: 32px;
+    left: 0px;
+    background: #FFA44A;
+    width: 3px;
+    height: 66px;
+    background-repeat: no-repeat;
+}
+.bkr003 .funfact-03 .funfact .column .item .count-outer {
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.bkr003 .funfact-03 .funfact .column .item .count-outer .count-text {
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.bkr003 .funfact-03 .funfact .column .item .counter-title {
+    position: relative;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.bkr003 .funfact-03 .funfact .column .item .counter-title p {
+    position: relative;
+    font-size: 14px;
+    color: #5F99FF;
+}
+
+
+/*** 
+
+====================================================================
+	funfact-04
+====================================================================
+
+ ***/
+
+.bkr003 .funfact-04 {
+    position: relative;
+    padding: 100px 0px 100px 0px;
+}
+.bkr003 .funfact-04 .column {}
+.bkr003 .funfact-04 .column .item {
+	text-align: center;
+}
+.bkr003 .funfact-04 .column .count-text {
+    font-size: 48px;
+    color: #222222;
+    font-weight: 700;
+}
+.bkr003 .funfact-04 .column .counter-title {}
+.bkr003 .funfact-04 .column .counter-title p {
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.bkr003 .funfact-04 .column .item .count-outer {
+    font-size: 48px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+/*** 
+
+====================================================================
+	funfact-05
+====================================================================
+
+ ***/
+
+.bkr003 .funfact-05 {
+	position: relative;
+    background: #00024F;
+    padding-bottom: 215px;
+    border-bottom: 1px solid #9295FF;
+    z-index: 1;
+    padding-top: 235px;
+}
+.bkr003 .funfact-05 .count-box {}
+.bkr003 .funfact-05 .count-box .item {
+    position: relative;
+    padding-left: 70px;
+}
+.bkr003 .funfact-05 .count-box .item .icon {
+    position: absolute;
+    left: 0;
+    top: -7px;
+}
+.bkr003 .funfact-05 .count-box .item .icon span {
+    font-size: 36px;
+    color: #E3A85C;
+}
+.bkr003 .funfact-05 .count-box .item .count-outer {
+    margin-bottom: 18px;
+}
+.bkr003 .funfact-05 .count-box .item .count-outer .count-text {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.bkr003 .funfact-05 .count-box .item .counter-title {}
+.bkr003 .funfact-05 .count-box .item .counter-title p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/*** 
+
+====================================================================
+	funfact-06
+====================================================================
+
+ ***/
+
+.bkr003 .funfact-06 {
+    position: relative;
+    padding: 130px 0px 120px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    text-align: center;
+}
+.bkr003 .funfact-06:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(11, 11, 13, 0.9);
+    transition: all 700ms ease !important;
+    z-index: -1;
+}
+.bkr003 .funfact-06 .sec-title {
+    margin-bottom: 112px;
+}
+.bkr003 .funfact-06 .sec-title .subtitle h3 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.bkr003 .funfact-06 .sec-title .title h2 {
+    font-size: 72px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.bkr003 .funfact-06 .count-box .item {
+    position: relative;
+    padding-left: 70px;
+}
+.bkr003 .funfact-06 .count-box .item .icon {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.bkr003 .funfact-06 .count-box .item .icon span:before {
+    font-size: 50px;
+    color: #FF9600;
+}
+.bkr003 .funfact-06 .count-box .item .count-outer {
+    margin-bottom: 49px;
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.bkr003 .funfact-06 .count-box .item .count-outer .count-text {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.bkr003 .funfact-06 .count-box .item .counter-title p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    text-transform: uppercase;
+}

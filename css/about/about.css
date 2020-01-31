@@ -1,0 +1,280 @@
+/*** 
+
+====================================================================
+	about-section
+====================================================================
+
+***/
+
+.bkr003 .about-07 {
+    position: relative;
+    padding: 100px 0px 100px 0px;
+    z-index: 1;
+}
+.bkr003 .about-07:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-image: url(../../images/background/home-7-sec-end.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px;
+    opacity: 0;
+}
+.bkr003 .about-07 .fixed-right-nav.scroll-nav-holder {
+    height: 0px;
+}
+.bkr003 .about-07 .small-container {
+    position: relative;
+    max-width: 1224px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+.bkr003 .about-07 .sec-title {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 100px;
+    margin-top: -19px;
+	z-index: 1;
+}
+.bkr003 .about-07 .sec-title:before {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    width: 5px;
+    height: 100px;
+    z-index: 188;
+    background: #00000021;
+}
+.bkr003 .about-07 .sec-title .title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-transform: uppercase;
+}
+.bkr003 .about-07 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    /* font-style: italic; */
+}
+.bkr003 .about-07 .sec-title .bigtitle {
+    float: right;
+    position: relative;
+    margin-top: -100px;
+}
+.bkr003 .about-07 .sec-title .bigtitle h1 {
+    font-size: 140px;
+    line-height: 140px;
+    color: #DDDDDD;
+    text-transform: uppercase;
+    font-weight: 800;
+	z-index: -1;
+}
+.bkr003 .about-07 .content {
+    margin-top: 18px;
+}
+.bkr003 .about-07 .content .subtitle h4 {
+    font-size: 15px;
+    color: #777777;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.bkr003 .about-07 .content .title h3 {
+    font-size: 30px;
+    color: #222222;
+    font-weight: 700;
+    line-height: 48px;
+    border-bottom: 2px solid #EBEBEB;
+    margin-bottom: 38px;
+    padding-bottom: 25px;
+}
+.bkr003 .about-07 .content .text p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+.bkr003 .about-07 .content .btn-box {
+    margin-top: 34px;
+}
+.bkr003 .about-07 .content .btn-box a {
+    font-size: 14px;
+    color: #fff;
+    background: #ef0d33;
+    display: inline-block;
+    padding: 9px 37px;
+}
+.bkr003 .about-07 .content .btn-box a {
+    background-image: -webkit-linear-gradient(315deg, #222 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #222 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #222 50%, transparent 50%);
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.bkr003 .about-07 .content .btn-box a:hover {
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+}
+.bkr003 .about-07 .content-container {
+    position: relative;
+}
+.bkr003 .about-07 .img-box {
+    position: relative;
+    top: 0;
+    margin-top: 60px;
+}
+.bkr003 .about-07 .img-box:before {
+    position: absolute;
+    left: 35px;
+    top: -29px;
+    content: "";
+    background: #EEEEEE;
+    width: 398px;
+    height: 447px;
+}
+.bkr003 .about-07 .img-box:after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 35px;
+    background-image: url(../../images/background/about-07-shape.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 375px;
+    height: 94px;
+    overflow: visible !important;
+}
+.bkr003 .about-07 .image {
+    position: relative;
+    overflow: hidden;
+    margin: 0px 65px;
+}
+.bkr003 .about-07 .image:before {
+    position: absolute;
+    content: '';
+    left: 400px;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 8;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 700ms ease;
+}
+
+.bkr003 .about-07 .img-box:hover .image:before {
+	opacity: 1;
+	left: 30px;
+	transition: all 700ms ease;
+}
+
+.bkr003 .about-07 .img-box img {
+	width: 100%;
+	-webkit-transition: .7s ease;
+	-o-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.bkr003 .about-07 .img-box:hover img {
+    /* -webkit-transform: scale(1.2); */
+    -ms-transform: scale(1.2);
+    /* transform: scale(1.2); */
+}
+
+.bkr003 .about-07 .img-box .overlay a {
+    background: #ef0d33;
+    border-radius: 50%;
+    color: #222;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0;
+    display: inline-block;
+    text-align: center;
+    -webkit-transform: translateX(0%) translateY(-30%) scale(0.5);
+    -ms-transform: translateX(0%) translateY(-30%) scale(0.5);
+    transform: translateX(0%) translateY(-30%) scale(0.5);
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.9s ease 0s;
+    width: 50px;
+}
+
+.bkr003 .about-07 .img-box .overlay a:hover {
+	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+	color: #222;
+}
+
+.bkr003 .about-07 .img-box:hover .overlay a {
+	opacity: 1;
+	-webkit-transform: translateX(0) translateY(0%) scale(1);
+	-ms-transform: translateX(0) translateY(0%) scale(1);
+	transform: translateX(0) translateY(0%) scale(1);
+}
+
+.bkr003 .about-07 .img-box .overlay {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	z-index: 10;
+}
+
+.bkr003 .about-07 .img-box:hover .overlay {
+	opacity: 1;
+}
+.bkr003 .about-07 .funfact {
+    margin-top: 85px;
+}
+.bkr003 .about-07 .funfact .item {}
+.about-section .funfact .item .count-outer {
+    margin-bottom: 18px;
+}
+.bkr003 .about-07 .funfact .item .count-outer .count-text {
+    font-size: 60px;
+    color: #333743;
+    font-weight: 700;
+    padding-left: 15px;
+}
+.bkr003 .about-07 .funfact .item .counter-title {
+    position: relative;
+    display: inline-block;
+    min-width: 179px;
+    min-height: 40px;
+    background: #2a2c47;
+    padding: 8px 20px 0px 53px;
+    margin-top: 20px;
+}
+.bkr003 .about-07 .funfact .item .counter-title p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.bkr003 .about-07 .funfact .item .counter-title span {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    color: #fff;
+}
+.bkr003 .about-07 .overlay-anim-box2 {
+    display: block;
+}

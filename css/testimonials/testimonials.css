@@ -1,0 +1,231 @@
+/*** 
+
+====================================================================
+	testimonials-section
+====================================================================
+
+ ***/
+
+.bkr003 .testimonials-07 {
+    position: relative;
+    padding: 100px 0px 100px 0px;
+    z-index: 1;
+}
+.bkr003 .testimonials-07:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-image: url(../../images/background/home-7-sec-end.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px;
+    opacity: 0;
+}
+.fixed-right-nav.scroll-nav-holder {
+    height: 0px;
+}
+.bkr003 .testimonials-07 .content-container {
+    position: relative;
+}
+.bkr003 .testimonials-07 .small-container {
+    position: relative;
+    max-width: 1224px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+.bkr003 .testimonials-07 .sec-title {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 100px;
+    margin-top: -19px;
+	z-index: 1;
+}
+.bkr003 .testimonials-07 .sec-title:before {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    width: 5px;
+    height: 100px;
+    z-index: 188;
+    background: #00000021;
+}
+.bkr003 .testimonials-07 .sec-title .title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-transform: uppercase;
+}
+.bkr003 .testimonials-07 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+}
+.bkr003 .testimonials-07 .sec-title .bigtitle {
+    float: right;
+    position: relative;
+    margin-top: -100px;
+}
+.bkr003 .testimonials-07 .sec-title .bigtitle h1 {
+    font-size: 140px;
+    line-height: 140px;
+    color: #3333330d;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: -1;
+}
+.bkr003 .testimonials-07 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+    /* font-style: italic; */
+}
+
+.bkr003 .testimonials-07 .item {
+    position: relative;
+    margin: 0px 20px;
+}
+.bkr003 .testimonials-07 .item .content {
+	background: #F4F4F4;
+	padding: 25px 25px 30px 38px;
+	position: relative;
+	margin-right: 40px;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	padding: 30px 40px 40px 35px;
+	background: #ffffff;
+	border-radius: 8px;
+}
+.bkr003 .testimonials-07 .item h3 {
+    position: relative;
+    font-size: 17px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+.bkr003 .testimonials-07 .item h3:before {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    width: 86px;
+    height: 1px;
+    background: #DDDDDD;
+}
+.bkr003 .testimonials-07 .item p {
+	font-size: 13px;
+	color: #585858;
+	line-height: 24px;
+	font-style: italic;
+}
+.bkr003 .testimonials-07 .item .rating {
+    text-align: right;
+    position: relative;
+    left: -25px;
+    top: 3px;
+}
+.bkr003 .testimonials-07 .item .rating span {
+    color: #ef0d33;
+    font-size: 13px;
+}
+.bkr003 .testimonials-07 .item .img-holder {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 20px 0px 0px 185px;
+}
+.bkr003 .testimonials-07 .item .img-box {
+    position: absolute;
+    left: 40px;
+    top: -48px;
+}
+.bkr003 .testimonials-07 .item .img-box img {}
+.bkr003 .testimonials-07 .item .img-holder .name h4 {
+    font-size: 20px;
+    color: #666666;
+    font-weight: 700;
+}
+.bkr003 .testimonials-07 .item .img-holder .designation {
+    font-size: 11px;
+    color: #767676;
+    /* font-style: italic; */
+    font-weight: 600;
+}
+.bkr003 .testimonials-07 .owl-nav {
+    position: relative;
+    display: block !important;
+    text-align: center;
+    left: -95px;
+    top: -35px;
+}
+.bkr003 .testimonials-07 .owl-nav .owl-prev {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background: #000000;
+    width: 30px;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 10px;
+	transition: all 700ms ease;
+}
+.bkr003 .testimonials-07 .owl-nav .owl-next {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background: #000000;
+	font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+	transition: all 700ms ease;
+}
+.bkr003 .testimonials-07 .owl-nav .owl-prev:hover {
+    background: #ef0d33;
+	transition: all 700ms ease;
+}
+.bkr003 .testimonials-07 .owl-nav .owl-next:hover {
+    background: #ef0d33;
+	transition: all 700ms ease;
+}
+.bkr003 .testimonials-07 .clints {
+    margin-top: 56px;
+}
+.bkr003 .testimonials-07 .clints .item {
+    position: relative;
+    border: 1px solid #EEEEEE;
+    padding: 24px 15px 24px 15px;
+    cursor: pointer;
+    margin: 0px 10px;
+    overflow: hidden;
+}
+.bkr003 .testimonials-07 .clints .item:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    visibility: visible;
+    background: #F5F5F5 padding-box content-box;
+    padding: 10px;
+}
+.bkr003 .testimonials-07 .clints .item img {
+    width: unset;
+    margin: 0 auto;
+}
+.bkr003 .testimonials-07 .clints .owl-nav {
+    display: none !important;
+}
+.bkr003 .testimonials-07 .owl-carousel.owl-loaded {
+    display: block;
+    overflow: hidden;
+}

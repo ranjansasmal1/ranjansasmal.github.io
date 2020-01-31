@@ -1,0 +1,96 @@
+/*** 
+=============================================
+    Breadcrumb area style
+=============================================
+***/
+
+.breadcrumb-area {
+    position: relative;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    padding-top: 100px;
+}
+.breadcrumb-area::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(243, 247, 250, 0.40) none repeat scroll 0 0;
+    content: "";
+    z-index: -1;
+}
+.breadcrumb-area .inner-content {
+    position: relative;
+    display: block;
+    padding: 110px 0px 165px 0px;
+}
+.breadcrumb-area .title {
+    display: block;
+}
+.breadcrumb-area .title h1 {
+    color: #222222;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 0px;
+}
+
+.breadcrumb-area .breadcrumb-menu {
+    position: relative;
+    display: inline-block;
+    line-height: 10px;
+}
+.breadcrumb-area .breadcrumb-menu ul {
+    position: relative;
+    display: inline-block;
+    line-height: 30px;
+    margin: 11px 0 9px;
+}
+.breadcrumb-area .breadcrumb-menu ul li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    color: #203260;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 500ms ease;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+.breadcrumb-area .breadcrumb-menu ul li:before {
+    position: absolute;
+    top: 2px;
+    right: -3px;
+    content: "\f105";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #222222;
+    font-size: 15px;
+}
+.breadcrumb-area .breadcrumb-menu ul li:last-child:before{
+    display: none;
+} 
+.breadcrumb-area .breadcrumb-menu ul li:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+.breadcrumb-area .breadcrumb-menu ul li a {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 500ms ease;
+}
+.breadcrumb-area .breadcrumb-menu ul li.active{
+    font-weight: 600;
+}
+.breadcrumb-area .breadcrumb-menu ul li a:hover{
+    color: #ef0d33;     
+}

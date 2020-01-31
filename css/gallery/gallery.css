@@ -1,0 +1,451 @@
+/*** 
+
+====================================================================
+	gallery-heading-01
+====================================================================
+
+ ***/
+
+.bkr003 .gallery-heading-01 {
+    position: relative;
+    padding: 144px 0px 156px 0px;
+    background: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bkr003 .gallery-heading-01:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    transition: all 700ms ease !important;
+    z-index: -1;
+}
+.bkr003 .gallery-heading-01 .title h2 {
+    font-size: 130px;
+    color: #8FF35E;
+    
+    font-weight: 200;
+}
+.bkr003 .gallery-heading-01 .sec-title .subtitle h3 {
+    font-size: 31px;
+    color: #fff;
+    font-weight: 200;
+    
+}
+.bkr003 .gallery-heading-01 .sec-title .subtitle h3 span {
+    color: #8BED5C;
+    display: block;
+}
+.bkr003 .gallery-heading-01 .subtitle {
+    margin-bottom: 60px;
+}
+.bkr003 .gallery-heading-01 .subtitle h3:before {
+    content: "";
+    background-color: #585858;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    bottom: -25px;
+    width: 30px;
+    height: 2px;
+    z-index: 398;
+}
+.bkr003 .gallery-heading-01 .text p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 27px;
+    
+    margin-bottom: 35px;
+}
+.bkr003 .gallery-heading-01 .btn-box {}
+.bkr003 .gallery-heading-01 .btn-box a {
+    font-size: 12px;
+    color: #000;
+    background: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 12px 34px;
+    border-radius: 30px;
+}
+.bkr003 .gallery-heading-01 .btn-box a {
+    background-image: -webkit-linear-gradient(315deg, #8BED5C 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #8BED5C 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #8BED5C 50%, transparent 50%);
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    /* border: 2px solid #F8961D; */
+}
+.bkr003 .gallery-heading-01 .btn-box a:hover {
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+}
+
+
+
+/*** 
+
+====================================================================
+	gallery-01
+====================================================================
+
+ ***/
+
+.bkr003 .gallery-01 {
+    padding: 50px 0px;
+    background: #000000;
+}
+.bkr003 .gallery-01 .items-container .gallery-item {
+    padding: 0 5px;
+    margin-bottom: 15px;
+}
+.bkr003 .gallery-01 .gallery-item .inner-box {
+    position: relative;
+}
+.bkr003 .gallery-01 .gallery-item .image-box {
+    position: relative;
+}
+.bkr003 .gallery-01 .gallery-item .image-box .image {
+    position: relative;
+}
+.bkr003 .gallery-01 .gallery-item .image-box .image .overlay-anim-box2 {
+    display: block;
+}
+.bkr003 .gallery-01 .gallery-item .image-box .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.bkr003 .gallery-01 .gallery-full-width .small-column {
+    position: relative;
+    float: left;
+    width: 33.33333333%;
+}
+.bkr003 .gallery-01 .case-block-two.col-lg-4.col-md-6 {
+    padding: 0px 5px;
+    padding-bottom: 5px;
+}
+.bkr003 .gallery-01 .gallery-item .image-box .overlay-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+    transition: all 700ms ease 300ms;
+}
+.bkr003 .gallery-01 .gallery-item .image-box:hover .overlay-box{
+    opacity: 1; 
+    transform:scale(1.0) rotate(0deg);	
+    transition: all 700ms ease 200ms;
+	
+}
+.bkr003 .gallery-01 .gallery-item .image-box .overlay-box .box{}
+.bkr003 .gallery-01 .gallery-item .image-box .overlay-box .box .link {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+.bkr003 .gallery-01 .gallery-item .image-box .overlay-box .box .link a span:before {
+    color: #fff;
+    font-size: 25px;
+    transition: all 500ms ease;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 54px;
+}
+.bkr003 .gallery-01 .gallery-item .image-box .image .overlay-box .box .link a:hover span:before{
+    /*color: #e9212e;  */  
+}
+
+/*.portfolio-02 .project-block .overlay-box:before{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 100%;
+	width: 0;
+	content: "";
+	visibility: visible;
+	background: #000000 padding-box content-box;
+	padding:10px;
+    -webkit-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -moz-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -o-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+    -webkit-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -moz-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -o-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+}
+*/
+
+.bkr003 .gallery-01 .gallery-item .image-box:hover .overlay-box:before{
+	width: 100%;
+	left: 0;
+	opacity: 0.75;
+}
+.bkr003 .gallery-01 .gallery-item .image-box a {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.bkr003 .gallery-01 .gallery-item .image-box span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+/*** 
+
+====================================================================
+	gallery-02
+====================================================================
+
+ ***/
+
+.bkr003 .gallery-02 {
+    position: relative;
+    background: #000000;
+	padding: 0px 0px 10px 0px
+}
+.bkr003 .gallery-02 .item {
+    position: relative;
+    margin: 10px 10px;
+}
+.bkr003 .gallery-02 .item .img-holder {
+	position: relative;
+    display: block;
+    overflow: hidden;
+}
+.bkr003 .gallery-02 .item .img-holder img {
+    width: 100%;
+    transform: scale(1.01);
+    transition: all 700ms ease;
+}
+/*.bkr003 .gallery-02 .item:hover .img-holder img {
+    transform: scale(1.2) rotate(2deg);
+}*/
+.bkr003 .gallery-02 .item .overlay-content {
+    position: absolute;
+    top: 113px;
+    left: 105px;
+    bottom: 113px;
+    right: 105px;
+    content: "";
+    opacity: 0.902;
+    background: #000;
+    transform: scaleX(0);
+    transition: all 700ms ease 100ms;
+}
+.bkr003 .gallery-02 .item:hover .overlay-content{
+    transform: scaleY(1);
+}
+.bkr003 .gallery-02 .item .overlay-content .inner-content{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.bkr003 .gallery-02 .item .overlay-content .inner-content .title-box {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    opacity: 0;
+    transform-style: preserve-3d;
+    transform: perspective(1200px) rotateX(90deg) translateZ(-45px);
+    transition: all 300ms ease 100ms;
+}
+.bkr003 .gallery-02 .item:hover .overlay-content .inner-content .title-box{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px); 
+    transition: all 700ms ease 500ms;
+}
+.bkr003 .gallery-02 .item .overlay-content .inner-content .title-box span {
+    color: #000000;
+    font-size: 16px;
+    background: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    position: relative;
+    top: -12px;
+}
+.bkr003 .gallery-02 .item .overlay-content .inner-content .title-box span {
+    background-image: -webkit-linear-gradient(315deg, #8BED5C 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #8BED5C 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #8BED5C 50%, transparent 50%);
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.bkr003 .gallery-02 .item .overlay-content .inner-content .title-box span:hover {
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+}
+.bkr003 .gallery-02 .item .overlay-content .inner-content .title-box h3 {
+    position: relative;
+    font-size: 45px;
+    margin: 3px 0 0;
+    color: #FFC500;
+    margin-bottom: 55px;
+    top: -15px;
+    
+    font-weight: 200;
+}
+.bkr003 .gallery-02 .item .overlay-content .inner-content .title-box h3:before {
+    content: "";
+    background-color: #585858;
+    position: absolute;
+    left: 50%;
+    margin-left: -18px;
+    bottom: -22px;
+    width: 30px;
+    height: 2px;
+    z-index: 398;
+}
+.bkr003 .gallery-02 .item .overlay-content .inner-content .title-box a {
+    color: #FFC500;
+    transition: all 500ms ease;
+    
+    font-weight: 200;
+}
+/*.bkr003 .gallery-02 .item .overlay-content .inner-content .title-box a:hover{
+    color: #fff;
+}*/
+.bkr003 .gallery-02 .pd0 {
+    padding: 0;
+}
+
+
+/*** 
+
+====================================================================
+	gallery-03
+====================================================================
+
+ ***/
+
+.bkr003 .gallery-03 {
+    padding: 0px 35px 95px 35px;
+    background: #fff;
+}
+.bkr003 .gallery-03 .overlay-anim-box2 {
+    display: block;
+}
+.bkr003 .gallery-03 .items-container .gallery-item {
+    /* padding: 0 10px; */
+    padding-bottom: 30px;
+}
+.bkr003 .gallery-03 .sortable-masonry {
+    padding: 0px 20px;
+}
+.bkr003 .gallery-03 .gallery-item .inner-box {
+    position: relative;
+}
+.bkr003 .gallery-03 .gallery-item .image-box {
+    position: relative;
+}
+.bkr003 .gallery-03 .gallery-item .image-box .image {
+    position: relative;
+}
+.bkr003 .gallery-03 .gallery-item .image-box .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.bkr003 .gallery-03 .gallery-full-width .small-column {
+    position: relative;
+    float: left;
+    width: 33.33333333%;
+}
+.bkr003 .gallery-03 .gallery-item .image-box .overlay-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: rgba(255, 150, 0, 0.9);
+    z-index: 3;
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+    transition: all 700ms ease 300ms;
+}
+.bkr003 .gallery-03 .gallery-item .image-box:hover .overlay-box{
+    opacity: 1; 
+    transform:scale(1.0) rotate(0deg);	
+    transition: all 700ms ease 200ms;
+	
+}
+.bkr003 .gallery-03 .gallery-item .image-box .overlay-box .box{}
+.bkr003 .gallery-03 .gallery-item .image-box .overlay-box .box .link {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+.bkr003 .gallery-03 .gallery-item .image-box .overlay-box .box .link a span:before {
+    color: #fff;
+    font-size: 25px;
+    transition: all 500ms ease;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 54px;
+}
+.bkr003 .gallery-03 .gallery-item .image-box .overlay-box .box .link a:hover span:before{
+    /*color: #e9212e;  */  
+}
+
+/*.portfolio-02 .project-block .overlay-box:before{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 100%;
+	width: 0;
+	content: "";
+	visibility: visible;
+	background: #000000 padding-box content-box;
+	padding:10px;
+    -webkit-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -moz-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -o-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+    -webkit-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -moz-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -o-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+}
+*/
+
+.bkr003 .gallery-03 .gallery-item .image-box .image-box:hover .overlay-box:before{
+	width: 100%;
+	left: 0;
+	opacity: 0.75;
+}
+.bkr003 .gallery-03 .gallery-item .image-box a {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.bkr003 .gallery-03 .gallery-item .image-box span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}

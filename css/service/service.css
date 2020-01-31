@@ -1,0 +1,281 @@
+/*** 
+
+====================================================================
+	services-section
+====================================================================
+
+***/
+
+.bkr003 .services-tab-01 {
+    position: relative;
+    padding: 100px 0px 100px 0px;
+    z-index: 1;
+}
+.bkr003 .services-tab-01:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-image: url(../../images/background/home-7-sec-end.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px;
+    opacity: 0;
+}
+.fixed-right-nav.scroll-nav-holder {
+    height: 0px;
+}
+.bkr003 .services-tab-01 .content-container {
+    position: relative;
+}
+.bkr003 .services-tab-01 .small-container {
+    position: relative;
+    max-width: 1224px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+.bkr003 .services-tab-01 .sec-title {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 100px;
+	margin-top: -19px;
+	z-index: 1;
+}
+.bkr003 .services-tab-01 .sec-title:before {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    width: 6px;
+    height: 100px;
+    z-index: 188;
+    background: #00000021;
+}
+.bkr003 .services-tab-01 .sec-title .title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-transform: uppercase;
+}
+.bkr003 .services-tab-01 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+    /* font-style: italic; */
+}
+.bkr003 .services-tab-01 .sec-title .bigtitle {
+    float: right;
+    position: relative;
+    margin-top: -100px;
+}
+.bkr003 .services-tab-01 .sec-title .bigtitle h1 {
+    font-size: 140px;
+    line-height: 140px;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: -1;
+}
+.bkr003 .services-tab-01 .tabs-box .tab {
+    display: none;
+}
+.bkr003 .services-tab-01 .tabs-box .tab.active-tab {
+    display: block;
+}
+.bkr003 .services-tab-01 .tab-buttons {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    margin-bottom: 90px;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 700ms ease;
+    min-width: 203px;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 600;
+    background: #F5F5F5;
+    /* line-height: 68px; */
+    padding: 20px 20px 20px 26px;
+    margin-right: 15px;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn i {
+    margin-right: 20px;
+    font-size: 22px;
+    top: 3px;
+    position: relative;
+    color: #ef0d33;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn:last-child {
+    padding-right: 0;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn:last-child:before{
+	display: none;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn.active-btn:before{
+	right: 15px;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn:after {
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    margin: auto;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #ef0d3300;
+    content: "";
+    margin-left: 100px;
+    transform: rotate(90deg);
+	transition: all 700ms ease;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn.active-btn:after {
+    bottom: -15px;
+    border-left: 10px solid #2a2c47;
+    transition: all 700ms ease;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn.active-btn {
+    color: #ffffff;
+    font-weight: 600;
+    background: #2a2c47;
+    transition: all 700ms ease;
+}
+.bkr003 .services-tab-01 .tab-buttons .tab-btn span {
+	position: absolute;
+	right: -70px;
+	top: 0;
+	font-size: 12px;
+	font-weight: 300;
+}
+.bkr003 .services-tab-01 .tabs-content .img-box {
+    position: relative;
+    margin-left: 40px;
+}
+.bkr003 .services-tab-01 .tabs-content .img-box:before {
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    left: -40px;
+    background-image: url(../../images/background/services-section-tab-img-shape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 424px;
+    height: 357px;
+    z-index: -1;
+}
+.bkr003 .services-tab-01 .tabs-content .img-box img {}
+.bkr003 .services-tab-01 .tabs-content .balance p {
+    font-size: 24px;
+    font-weight: 700;
+    /* font-style: italic; */
+    display: inline-block;
+    float: right;
+    background: #222222;
+    color: #fff;
+    padding: 23px 42px;
+    margin-right: 7px;
+    margin-top: 18px;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+}
+.bkr003 .services-tab-01 .tabs-content .content {
+    margin-top: -50px;
+    padding-left: 16px;
+    padding-right: 95px;
+}
+.bkr003 .services-tab-01 .tabs-content .content h3 {
+    font-size: 24px;
+    color: #222;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.bkr003 .services-tab-01 .tabs-content .content h4 {
+    font-size: 16px;
+    color: #1f2235;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+.bkr003 .services-tab-01 .tabs-content .content .text p {
+    font-size: 14px;
+    color: #222;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.bkr003 .services-tab-01 .tabs-content .content .quote p {
+    font-size: 14px;
+    color: #1f2235;
+    font-weight: 600;
+    padding-left: 35px;
+}
+.bkr003 .services-tab-01 .tabs-content .content .list {
+    margin-top: 10px;
+}
+.bkr003 .services-tab-01 .tabs-content .content .list li {
+    font-size: 14px;
+    color: #1f2235;
+    font-weight: 600;
+}
+.bkr003 .services-tab-01 .tabs-content .content .list li i {
+    font-size: 20px;
+    color: #ef0d33;
+    margin-right: 20px;
+    position: relative;
+    top: 2px;
+}
+.bkr003 .services-tab-01 .calltoaction {
+    position: relative;
+    background: #2a2c47;
+    border-radius: 5px;
+    padding: 30px 30px 13px 50px;
+    margin-top: 52px;
+}
+.bkr003 .services-tab-01 .calltoaction:before {
+    position: absolute;
+    content: "\f0e0";
+    right: 315px;
+    top: 24px;
+    font-size: 135px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #fff;
+    transform: rotate(45deg);
+}
+.bkr003 .services-tab-01 .calltoaction h2 {
+    font-size: 35px;
+    /* font-style: italic; */
+    color: #fff;
+    font-weight: 600;
+}
+.bkr003 .services-tab-01 .calltoaction .btn-box {
+    float: right;
+    position: relative;
+    top: -8px;
+}
+.bkr003 .services-tab-01 .calltoaction .btn-box a {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+    background: #222222;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.bkr003 .services-tab-01 .calltoaction .btn-box a {
+    background-image: -webkit-linear-gradient(315deg, #fff 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #fff 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #fff 50%, transparent 50%);
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.bkr003 .services-tab-01 .calltoaction .btn-box a:hover {
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+    color: #ef0d33;
+}

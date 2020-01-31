@@ -1,0 +1,313 @@
+/*** 
+
+====================================================================
+		portfolio-section
+====================================================================
+
+***/
+
+.bkr003 .portfolio-06 {
+    position: relative;
+    padding: 100px 0px 90px 0px;
+    z-index: 1;
+}
+.bkr003 .portfolio-06:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-image: url(../../images/background/home-7-sec-end.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px;
+    opacity: 0;
+}
+.fixed-right-nav.scroll-nav-holder {
+    height: 0px;
+}
+.bkr003 .portfolio-06 .content-container {
+    position: relative;
+}
+.bkr003 .portfolio-06 .small-container {
+    position: relative;
+    max-width: 1224px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+.bkr003 .portfolio-06 .sec-title {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 100px;
+	margin-top: -19px;
+	z-index: 1;
+}
+.bkr003 .portfolio-06 .sec-title:before {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    width: 5px;
+    height: 100px;
+    z-index: 188;
+    background: #00000021;
+}
+.bkr003 .portfolio-06 .sec-title .title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-transform: uppercase;
+}
+.skill-section .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    font-style: italic;
+}
+.bkr003 .portfolio-06 .sec-title .bigtitle {
+    float: right;
+    position: relative;
+    margin-top: -100px;
+}
+.bkr003 .portfolio-06 .sec-title .bigtitle h1 {
+    font-size: 140px;
+    line-height: 140px;
+    color: #DDDDDD;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: -1;
+}
+.bkr003 .portfolio-06 .sec-title .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+}
+.bkr003 .portfolio-06 .filter-tabs {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 50px;
+    border: 1px solid #E1E1E1;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.bkr003 .portfolio-06 .filters {
+    position: relative;
+}
+
+.bkr003 .portfolio-06 .filters li {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 5px 20px 5px;
+    cursor: pointer;
+    color: #010101;
+    border-radius: 30px;
+    margin: 0;
+    font-weight: 600;
+    min-width: 120px;
+    text-align: center;
+}
+
+.bkr003 .portfolio-06 .filters li.active {
+    font-weight: 600;
+    background: #ef0d33;
+    color: #fff;
+}
+
+.bkr003 .portfolio-06 .row{
+	margin: 0 -7px;
+}
+
+.bkr003 .portfolio-06 .project-block {
+    position: relative;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.bkr003 .portfolio-06 .project-block .image-box img {
+    border-radius:7px;
+}
+
+.bkr003 .portfolio-06 .project-block .image-box{
+	position: relative;
+	overflow: hidden;
+}
+
+.bkr003 .portfolio-06 .project-block .image-box .image{
+	position: relative;
+	margin-bottom: 0;
+}
+
+.bkr003 .portfolio-06 .overlay-anim-box2 {
+    display: block;
+}
+
+.bkr003 .portfolio-06 .project-block .image-box img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box:before{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 100%;
+	width: 0;
+	content: "";
+	visibility: visible;
+	background: #000000 padding-box content-box;
+	padding:10px;
+    -webkit-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -moz-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -o-transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    transition: all 400ms cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+    -webkit-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -moz-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    -o-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+    transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+}
+
+.bkr003 .portfolio-06 .project-block .image-box:hover .overlay-box:before{
+	width: 100%;
+	left: 0;
+
+	opacity: 0.75;
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .content-box {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: visible;
+}
+.bkr003 .portfolio-06 .project-block .image-box:hover .overlay-box .content-box{
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	transition: all 300ms ease;
+	-webkit-transition-delay: 400ms;
+	-ms-transition-delay: 400ms;
+	transition-delay: 400ms;
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .content-box h4 {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .content-box h4 a{
+	color:#ffffff;	
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .content-box h4 a:hover{
+	text-decoration:underline;	
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .category{
+	position: relative;
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .category li {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+}
+.bkr003 .portfolio-06 .project-block .overlay-box .content-box .border {
+    border-bottom: 1px solid #000;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0px 40px;
+    height: 50%;
+}
+.bkr003 .portfolio-06 .project-block .overlay-box .content-box .border:after {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    margin: auto;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #ef0d33;
+    content: "";
+    margin-left: 100px;
+    transform: rotate(-45deg);
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .category li:last-child{
+	margin-right:0px;
+}	
+
+.bkr003 .portfolio-06 .project-block .overlay-box .category li:before{
+    position: absolute;
+    right: -14px;
+	width:14px;
+	text-align:center;
+    top: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(255,255,255,0.70);
+    content: "/";
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .category li:last-child:before{
+	display:none;
+}	
+
+.bkr003 .portfolio-06 .project-block .overlay-box .category li a{
+	color:#ffffff;	
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .category li a:hover{
+	text-decoration:underline;	
+}
+
+.bkr003 .portfolio-06 .bkr003 .portfolio-06 .btn-box{
+	position: relative;
+	margin-top: 70px;
+	text-align: center;
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .content-box a span {
+    color: #ef0d33;
+    background: #000000;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.bkr003 .portfolio-06 .project-block .overlay-box .content-box .content {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}

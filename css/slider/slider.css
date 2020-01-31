@@ -1,0 +1,225 @@
+/*** 
+
+====================================================================
+		slider-02
+====================================================================
+
+***/
+
+.bkr003 .slider-02 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bkr003 .slider-02:before {
+    position: absolute;
+    content: "";
+    background: rgba(17, 21, 23, 0);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bkr003 .slider-02 .content {
+	padding: 120px 0px 240px 0px;
+}
+.bkr003 .slider-02 .image-box {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.bkr003 .slider-02 .image-box img {}
+.bkr003 .slider-02 .title {}
+.bkr003 .slider-02 .title h2 {
+    text-transform: uppercase;
+    color: #1f2336;
+    font-size: 85px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'Teko', sans-serif;
+    position: relative;
+    margin-left: -100px;
+    left: 100px;
+}
+.bkr003 .slider-02 .title h2 span {
+    font-weight: 700;
+    color: #646464;
+}
+.bkr003 .slider-02 .text_typing {}
+.bkr003 .slider-02 .text_typing p {
+    color: #1f2336;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Teko', sans-serif;
+}
+.bkr003 .slider-02 .text_typing p span {
+    font-weight: 600;
+    line-height: 1;
+    color: #ef0d33;
+    margin-left: 10px;
+}
+.bkr003 .slider-02 span.typed-cursor {
+    display: none;
+}
+.bkr003 .slider-02 .arrow-down {
+    position: relative;
+    display: inline-block;
+    margin-top: 90px;
+}
+.bkr003 .slider-02 .arrow-down::before {
+    position: absolute;
+    content: "\f309";
+    right: 0;
+    bottom: -15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    left: -13px;
+    margin: auto;
+    animation: fadeInDown 3s infinite;
+}
+/*====multiline-animation====*/
+.dotanimation {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 100vh;
+    z-index: -1;
+}
+@media only screen and (max-width: 991px) {
+	
+.dotanimation{
+	display:none;
+}	
+}
+.dotline-one,
+.dotline-two,
+.dotline-three,
+.dotline-four{
+	position:absolute;
+	bottom:0px;
+	height:100vh;
+	width:4px;
+	    z-index: -1;
+	border-left: 1px solid rgba(3, 3, 3, 0.1);
+}
+.dotline-one{left: 6%;}
+.dotline-two{left: 33%;}
+.dotline-three{left: 96%;}
+.dotline-four{left: 60%;}
+
+.dotanimation1{
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+	background-color: #ef0d33;
+	height: 10px;
+	margin: 0px 0px 0px -5px;
+	transform-origin: bottom;
+	width: 10px;
+}
+.animline1{
+	animation-name: animline1;
+	animation-timing-function: linear;
+}
+@keyframes animline1{
+	0%   { transform: translateY(0); }
+	50%  { transform: translateY(100vh); }
+	100% { transform: translateY(0); }
+}
+
+
+.dotanimation2{
+	animation-duration: 80s;
+	animation-iteration-count: infinite;
+	background-color: #414141;
+	height: 10px;
+	width:10px;
+	margin: 0px 0px 0px -5px;
+	transform-origin: bottom;
+}
+.animline2{
+	animation-name: animline2;
+	animation-timing-function: linear;
+}
+@keyframes animline2{
+	100%   { transform: translateY(0); }
+	50%  { transform: translateY(100vh); }
+	0% { transform: translateY(0); }
+}
+.anim-icons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    z-index: -1;
+}
+.anim-icons .icon {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.anim-icons .icon-1 {
+  left: 0px;
+  top: 0px;
+  background-repeat: no-repeat;
+  -webkit-animation: zoom-fade 2s infinite linear;
+  animation: zoom-fade 2s infinite linear;
+}
+
+.anim-icons .icon-2 {
+    left: 0px;
+    bottom: 73px;
+    background-repeat: no-repeat;
+}
+
+.anim-icons .icon-3 {
+  left: 45%;
+  top: 200px;
+  background-repeat: no-repeat;
+}
+
+.anim-icons .icon-4 {
+  left: 38%;
+  bottom: 150px;
+  background-repeat: no-repeat;
+}
+
+.anim-icons .icon-5 {
+  top: 120px;
+  right: 190px;
+  background-repeat: no-repeat;
+}
+.rotate-me {
+    animation-name: rotateme;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotateme;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotateme;
+    -moz-animation-duration: 30s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: rotateme;
+    -ms-animation-duration: 30s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: rotateme;
+    -o-animation-duration: 30s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
